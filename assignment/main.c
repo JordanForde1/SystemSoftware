@@ -5,6 +5,7 @@
 #include <errno.h>
 #include <unistd.h>
 #include <sys/stat.h>
+#include <sys/types.h>
 #include <syslog.h>
 #include <setjmp.h>
 #include <mqueue.h>
@@ -18,32 +19,9 @@
 
 #define BUFFER_SIZE 1024
 
-void startdaemon()
-{
-	printf("Child");
-	if(setsid < 0)
-	{
-		exit(EXIT_FAILURE);
-	}
-
-	umask(0);
-
-	if(chdir("/") < 0)
-	{
-		exit(EXIT_FAILURE);
-	}
-
-	int i;
-
-	for(i = sysconf(_SC_OPEN_MAX); i >= 0; i--)
-	{
-
-		close(i);
-	}
-}
-
 void signalhandler(int signal_number)
 {
+	printf("in signal");
 	if( signal_number == SIGINT)
 	{
 		loginformation ("Signal Interrupt");
@@ -57,40 +35,55 @@ void signalhandler(int signal_number)
 	}
 }
 
-int main(int argc, char **argv)
+int main()
 {
-	char * watchfile = "auditctl - w /home/jordan/Documents/SystemSoftware/assignment/var/www/html/ -p rwxa";
+	char * watchfile = "auditctl -w /home/jordan/Documents/SystemSoftware/assignment/var/www/html/ -p rwxa";
 
 	FILE *fp;
 	FILE *output;
-	int over;
 
 	char readBuffer[1024];
 
 	fp = popen(watchfile, "r");
 	output = fopen("/home/jordan/Documents/SystemSoftware/assignment/auditinglog.txt", "a+");
-	
+
 	while(fgets(readBuffer, 1024, fp) != NULL)
 	{
 		fprintf(output, "%s", readBuffer);
 	}
 
-	over = pclose(fp);
-	
-	int pid = fork();
-	
+	pid_t pid = fork();
+	printf("\n%d",pid);
+
 	//parent
 	if(pid > 0)
 	{
-		sleep(5);
-		loginformation("Ext parent");
+		loginformation("Exit parent");
 		exit(EXIT_SUCCESS);
 	}
 
 	else if (pid == 0)
 	{
-		
-		startdaemon();
+		if(setsid < 0)
+		{
+			exit(EXIT_FAILURE);
+		}
+
+		umask(0);
+
+		if(chdir("/") < 0)
+		{
+			exit(EXIT_FAILURE);
+		}
+
+		int i;
+
+		for(i = sysconf(_SC_OPEN_MAX); i >= 0; i--)
+		{
+
+			close(i);
+		}
+
 		mqd_t mq;
 		struct mq_attr queue_atrributes;
 		char buffer[BUFFER_SIZE + 1];
@@ -105,7 +98,7 @@ int main(int argc, char **argv)
 
 		if (signal(SIGINT, signalhandler) == SIG_ERR)
 		{
-			printf("Opps something went wrong!!");
+			printf("Oops something went wrong!!");
 			loginformation("ERROR: signal handler");
 		}
 
@@ -134,9 +127,9 @@ int main(int argc, char **argv)
 				changepermissions("0777");
 			}
 		}
+		
 
 		while(terminate < 1);
 	}
-	
 	return 0;
 }

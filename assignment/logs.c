@@ -9,9 +9,11 @@
 
 void loginformation (char* logs)
 {
+	printf("\nin logs");
 	openlog("assignment", LOG_PID|LOG_CONS, LOG_USER);
 	syslog(LOG_INFO, "%s", logs);
 	closelog();
+	printf("\nclose log");
 }
 
 void logerrors (char* logs)

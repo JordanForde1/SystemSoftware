@@ -10,14 +10,11 @@
 
 void files()
 {
-
-	char *getFiles = "/home/jordan/Documents/SystemSoftware/assignment/var/www/html/intranet/";
-	char *putFiles ="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/live/";
+	printf("in files");
 	char *sync = "rsync -r /home/jordan/Documents/SystemSoftware/assignment/var/www/html/intranet/ /home/jordan/Documents/SystemSoftware/assignment/var/www/html/live/";
 
 	FILE *fp;
 	FILE *output;
-	int over;
 	char readbuffer[1024];
 
 	fp = popen(sync, "r");
@@ -30,5 +27,4 @@ void files()
 	}
 
 	loginformation("Files have been succsfully synced with the live web page");
-	over = pclose(fp);
 }

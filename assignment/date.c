@@ -3,7 +3,7 @@
 
 char* getDate(char * buffer)
 {
-
+	printf("in date");
 	time_t datatime;
 	struct tm * gettime;
 	time (&datatime);

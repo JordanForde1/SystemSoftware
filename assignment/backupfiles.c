@@ -10,6 +10,7 @@
 
 void backupfiles()
 {
+	printf("in back up");
 	char *copy = "cp -r";
 	char *getfiles = "/home/jordan/Documents/SystemSoftware/assignment/var/www/html/intranet/";
 	char *putfiles = "/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/";
@@ -32,7 +33,6 @@ void backupfiles()
 
 	FILE *fp;
 	FILE *output;
-	int over;
 	char readbuffer[1024];
 
 	fp = popen(copycommand, "r");
@@ -45,5 +45,4 @@ void backupfiles()
 	}
 
 	loginformation("Files have been succsfully backed up to the back up folder");
-	over = pclose(fp);
 }

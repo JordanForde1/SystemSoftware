@@ -24,7 +24,6 @@ void watchfiles()
 	
 	FILE *fp;
 	FILE *output;
-	int over;
 	char readbuffer[1024];
 
 	fp = popen(sizebuffer, "r");
@@ -37,5 +36,4 @@ void watchfiles()
 	}
 
 	loginformation("Files have been succsfully backed up to the back up folder");
-	over = pclose(fp);
 }
