@@ -20,7 +20,7 @@ void changepermissions(char mode[])
 	if(chmod(files, x) < 0)
 	{
 
-		logerrors("Can not change the permission of the folder");
+		loginformation("Can not change the permission of the folder");
 	}
 
 	else

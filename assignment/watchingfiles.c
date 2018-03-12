@@ -12,7 +12,7 @@ void watchfiles()
 {
 	char datebuffer[80];
 	char *date = getDate(datebuffer);
-	char *auditsearch = "ausearch -f /home/jordan/Documents/SystemSoftware/assignment/var/www/html/ > /home/jordan/Documents/SystemSoftware/assignment/logs/";
+	char *auditsearch = "ausearch -f /home/jordan/Documents/SystemSoftware/assignment/var/www/html/ > /home/jordan/Documents/SystemSoftware/assignment/changelogs/";
 	char *filetype = ".txt";
 
 	int size = strlen(auditsearch) + strlen(date) + strlen(filetype) + 1;

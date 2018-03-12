@@ -10,7 +10,6 @@
 
 void backupfiles()
 {
-	printf("in back up");
 	char *copy = "cp -r";
 	char *getfiles = "/home/jordan/Documents/SystemSoftware/assignment/var/www/html/intranet/";
 	char *putfiles = "/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/";

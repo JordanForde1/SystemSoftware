@@ -22,7 +22,6 @@ void files()
 
 	while(fgets(readbuffer, 1024, fp) != NULL)
 	{
-
 		fprintf(output, "%s", readbuffer);
 	}
 

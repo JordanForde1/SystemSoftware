@@ -53,7 +53,6 @@ int main()
 	}
 
 	pid_t pid = fork();
-	printf("\n%d",pid);
 
 	//parent
 	if(pid > 0)
