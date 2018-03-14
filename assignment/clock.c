@@ -14,7 +14,7 @@ int main()
 	time(&now);
 	then = *localtime(&now);
 
-	// Set the time to count down to
+	// Set the time to back up at mid-night
 	then.tm_hour = 14;
 	then.tm_min = 40;
 	then.tm_sec = 0;
@@ -24,12 +24,17 @@ int main()
 	{
 		time(&now);
 		seconds = difftime(now, mktime(&then));
-		printf("Seconds: %f\n", seconds);
-		sleep(1);
 
 		if(seconds == 0)
 		{
-			printf("Timer has reached zero.\n");
+			loginformation("Timer has reached zero.\n");
+			loginformation("Starting back up now\n");
+			changepermissions("1111");
+			backupfiles();
+			files();
+			watchfiles();
+			loginformation("Back up and syncnronise files");
+			changepermissions("0777");
 		}
 	}
 }

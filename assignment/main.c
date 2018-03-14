@@ -117,12 +117,12 @@ int main()
 			
 			else if(!strncmp(buffer, "backup", strlen("backup")))
 			{
-				printf("Starting back up now\n");
+				loginformation("Starting back up now\n");
 				changepermissions("1111");
 				backupfiles();
 				files();
 				watchfiles();
-				loginformation ("Back up and syncnronise files");
+				loginformation("Back up and syncnronise files");
 				changepermissions("0777");
 			}
 		}

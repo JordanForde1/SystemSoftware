@@ -27,6 +27,7 @@ void backupfiles()
 	char *copycommand = (char *)malloc(copysize);
 
 	strcpy(copycommand, copy);
+	strcat(copycommand, " ");
 	strcat(copycommand, getfiles);
 	strcat(copycommand, putfiledate);
 
