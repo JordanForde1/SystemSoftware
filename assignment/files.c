@@ -17,13 +17,13 @@ void files()
 	char readbuffer[1024];
 
 	fp = popen(sync, "r");
-	output =  fopen("/home/jordan/Documents/SystemSoftware/assignment/synclog.txt", "a+");
+	output =  fopen("/home/jordan/Documents/SystemSoftware/assignment/syncinglogfile.txt", "a+");
 
 	while(fgets(readbuffer, 1024, fp) != NULL)
 	{
 		fprintf(output, "%s", readbuffer);
 	}
 
-	loginformation("Files have been succsfully synced with the live web page");
+	loging("Files have been succsfully synced with the live web page");
 	pclose(fp);
 }

@@ -14,10 +14,8 @@ void watchfiles()
 	char *date = getDate(datebuffer);
 	char *auditsearch = "ausearch -f /home/jordan/Documents/SystemSoftware/assignment/var/www/html/ > /home/jordan/Documents/SystemSoftware/assignment/changelogs/";
 	char *filetype = ".txt";
-
 	int size = strlen(auditsearch) + strlen(date) + strlen(filetype) + 1;
 	char *sizebuffer = (char *)malloc(size);
-	
 	strcpy(sizebuffer, auditsearch);
 	strcat(sizebuffer, date);
 	strcat(sizebuffer, filetype);
@@ -27,13 +25,13 @@ void watchfiles()
 	char readbuffer[1024];
 
 	fp = popen(sizebuffer, "r");
-	output =  fopen("/home/jordan/Documents/SystemSoftware/assignment/aulog.txt", "a+");
+	output =  fopen("/home/jordan/Documents/SystemSoftware/assignment/ausearchfilelog.txt", "a+");
 
 	while(fgets(readbuffer, 1024, fp) != NULL)
 	{
 		fprintf(output, "%s", readbuffer);
 	}
 
-	loginformation("Watch rule has been put in place.");
+	loging("Watch rule has been put in place.");
 	pclose(fp);
 }

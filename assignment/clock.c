@@ -27,13 +27,13 @@ int main()
 
 		if(seconds == 0)
 		{
-			loginformation("Timer has reached zero.\n");
-			loginformation("Starting back up now\n");
+			loging("Timer has reached zero.\n");
+			loging("Starting back up now\n");
 			changepermissions("1111");
 			backupfiles();
 			files();
 			watchfiles();
-			loginformation("Back up and syncnronise files");
+			loging("Back up and syncnronise files");
 			changepermissions("0777");
 		}
 	}

@@ -19,33 +19,16 @@
 
 #define BUFFER_SIZE 1024
 
-void signalhandler(int signal_number)
-{
-	printf("in signal");
-	if( signal_number == SIGINT)
-	{
-		loginformation ("Signal Interrupt");
-		printf("Signal Interrupt\n");
-		printf("Starting back up now\n");
-		changepermissions("1111");
-		backupfiles();
-		files();
-		loginformation ("Back up and syncnronise files");
-		changepermissions("0777");
-	}
-}
-
 int main()
 {
 	char * watchfile = "auditctl -w /home/jordan/Documents/SystemSoftware/assignment/var/www/html/ -p rwxa";
 
 	FILE *fp;
 	FILE *output;
-
 	char readBuffer[1024];
 
 	fp = popen(watchfile, "r");
-	output = fopen("/home/jordan/Documents/SystemSoftware/assignment/auditinglog.txt", "a+");
+	output = fopen("/home/jordan/Documents/SystemSoftware/assignment/auditinglogfile.txt", "a+");
 
 	while(fgets(readBuffer, 1024, fp) != NULL)
 	{
@@ -58,7 +41,7 @@ int main()
 	//parent
 	if(pid > 0)
 	{
-		loginformation("Exit parent");
+		loging("Exit parent");
 		exit(EXIT_SUCCESS);
 	}
 
@@ -96,34 +79,28 @@ int main()
 
 		mq = mq_open("/assignment_queue", O_CREAT | O_RDONLY, 0644, &queue_atrributes);
 
-		if (signal(SIGINT, signalhandler) == SIG_ERR)
-		{
-			printf("Oops something went wrong!!");
-			loginformation("ERROR: signal handler");
-		}
-
 		do
 		{
 			ssize_t bytes_read;
 			bytes_read = mq_receive(mq, buffer, BUFFER_SIZE, NULL);
-			loginformation(buffer);
+			loging(buffer);
 			
 			buffer[bytes_read] = '\0';
 			
 			if(!strncmp(buffer, "exit", strlen("exit")))
 			{
 				terminate = 1;
-				loginformation("Daemon is finished");
+				loging("Daemon is finished");
 			}
 			
 			else if(!strncmp(buffer, "backup", strlen("backup")))
 			{
-				loginformation("Starting back up now\n");
+				loging("Starting back up now\n");
 				changepermissions("1111");
 				backupfiles();
 				files();
 				watchfiles();
-				loginformation("Backup and syncnronise files");
+				loging("Backup and syncnronise files");
 				changepermissions("0777");
 			}
 		}
