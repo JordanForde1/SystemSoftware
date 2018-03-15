@@ -34,7 +34,7 @@ void watchfiles()
 	char readbuffer[1024];
 
 	fp = popen(sizebuffer, "r");
-	output =  fopen("/home/jordan/Documents/SystemSoftware/assignment/ausearchfilelog.txt", "a+");
+	output = fopen("/home/jordan/Documents/SystemSoftware/assignment/commandlog/watchfilelog.txt", "a+");
 
 	while(fgets(readbuffer, 1024, fp) != NULL)
 	{

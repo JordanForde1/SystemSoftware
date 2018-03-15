@@ -50,7 +50,7 @@ void backupfiles()
 	char readbuffer[1024];
 
 	fp = popen(copycommand, "r");
-	output =  fopen("/home/jordan/Documents/SystemSoftware/assignment/backuplogfile.txt", "a+");
+	output = fopen("/home/jordan/Documents/SystemSoftware/assignment/commandlog/backupfileslog.txt", "a+");
 
 	while(fgets(readbuffer, 1024, fp) != NULL)
 	{

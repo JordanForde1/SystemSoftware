@@ -20,7 +20,7 @@ void files()
 
 	//directory to make log file
 	fp = popen(sync, "r");
-	output =  fopen("/home/jordan/Documents/SystemSoftware/assignment/syncinglogfile.txt", "a+");
+	output = fopen("/home/jordan/Documents/SystemSoftware/assignment/commandlog/fileslog.txt", "a+");
 
 	while(fgets(readbuffer, 1024, fp) != NULL)
 	{
@@ -30,5 +30,5 @@ void files()
 	loging("Files have been succsfully synced with the live web page");
 	
 	//closing file discriptors
-	pclose(fp);
+	//pclose(fp);
 }

@@ -36,7 +36,7 @@ int main()
 	fp = popen(watchfile, "r");
 
 	//Directory for output file
-	output = fopen("/home/jordan/Documents/SystemSoftware/assignment/auditinglogfile.txt", "a+");
+	output = fopen("/home/jordan/Documents/SystemSoftware/assignment/commandlog/mainlog.txt", "a+");
 
 	while(fgets(readBuffer, 1024, fp) != NULL)
 	{
