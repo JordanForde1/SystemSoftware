@@ -10,12 +10,21 @@
 
 void watchfiles()
 {
+	//Date buffer and getting the date for the log files
 	char datebuffer[80];
 	char *date = getDate(datebuffer);
+
+	//Command to search interation with the directory and create log files
 	char *auditsearch = "ausearch -f /home/jordan/Documents/SystemSoftware/assignment/var/www/html/ > /home/jordan/Documents/SystemSoftware/assignment/changelogs/";
+
+	//make the file a text file
 	char *filetype = ".txt";
+
+	//Getting the sizes
 	int size = strlen(auditsearch) + strlen(date) + strlen(filetype) + 1;
 	char *sizebuffer = (char *)malloc(size);
+
+	//Copying and concatinating
 	strcpy(sizebuffer, auditsearch);
 	strcat(sizebuffer, date);
 	strcat(sizebuffer, filetype);

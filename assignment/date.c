@@ -3,6 +3,7 @@
 
 char* getDate(char * buffer)
 {
+	//Creating the time and date for the log files
 	time_t datatime;
 	struct tm * gettime;
 	time (&datatime);
