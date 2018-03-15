@@ -9,7 +9,6 @@
 
 void changepermissions(char mode[])
 {
-	printf("in permissions");
 	int x;
 	struct stat st;
 	

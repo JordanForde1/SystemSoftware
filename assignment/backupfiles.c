@@ -17,6 +17,7 @@ void backupfiles()
 	char *date = getDate(datebuffer);
 	
 	printf("\nDate: %s", date);
+
 	int putfilessize = strlen(putfiles) + strlen(date) + 1;
 	char *putfiledate = (char *)malloc(putfilessize);
 
@@ -27,7 +28,7 @@ void backupfiles()
 	char *copycommand = (char *)malloc(copysize);
 
 	strcpy(copycommand, copy);
-	strcat(copycommand, " ");
+	//strcat(copycommand, " ");
 	strcat(copycommand, getfiles);
 	strcat(copycommand, putfiledate);
 
@@ -40,9 +41,9 @@ void backupfiles()
 
 	while(fgets(readbuffer, 1024, fp) != NULL)
 	{
-
 		fprintf(output, "%s", readbuffer);
 	}
 
 	loginformation("Files have been succsfully backed up to the back up folder");
+	pclose(fp);
 }

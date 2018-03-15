@@ -51,7 +51,8 @@ int main()
 	{
 		fprintf(output, "%s", readBuffer);
 	}
-
+	
+	pclose(fp);
 	pid_t pid = fork();
 
 	//parent

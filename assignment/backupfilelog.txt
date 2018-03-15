@@ -1,1 +1,4 @@
-sh: 1: ausearch: not found
+sh: 1: cannot create /home/jordan/Documents/SystemSoftware/assignment/changelogs/15_03_2018_12_35_56.txt: Directory nonexistent
+sh: 1: cannot create /home/jordan/Documents/SystemSoftware/assignment/changelogs/15_03_2018_12_37_49.txt: Directory nonexistent
+sh: 1: cannot create /home/jordan/Documents/SystemSoftware/assignment/changelogs/15_03_2018_12_41_16.txt: Directory nonexistent
+sh: 1: cannot create /home/jordan/Documents/SystemSoftware/assignment/changelogs/15_03_2018_13_04_21.txt: Directory nonexistent

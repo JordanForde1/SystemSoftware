@@ -27,13 +27,13 @@ void watchfiles()
 	char readbuffer[1024];
 
 	fp = popen(sizebuffer, "r");
-	output =  fopen("/home/jordan/Documents/SystemSoftware/assignment/backupfilelog.txt", "a+");
+	output =  fopen("/home/jordan/Documents/SystemSoftware/assignment/aulog.txt", "a+");
 
 	while(fgets(readbuffer, 1024, fp) != NULL)
 	{
-
 		fprintf(output, "%s", readbuffer);
 	}
 
-	loginformation("Files have been succsfully backed up to the back up folder");
+	loginformation("Watch rule has been put in place.");
+	pclose(fp);
 }
