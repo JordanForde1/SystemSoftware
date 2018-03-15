@@ -10,7 +10,6 @@
 
 void files()
 {
-	printf("in files");
 	char *sync = "rsync -r /home/jordan/Documents/SystemSoftware/assignment/var/www/html/intranet/ /home/jordan/Documents/SystemSoftware/assignment/var/www/html/live/";
 
 	FILE *fp;

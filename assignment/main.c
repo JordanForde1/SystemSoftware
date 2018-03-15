@@ -123,7 +123,7 @@ int main()
 				backupfiles();
 				files();
 				watchfiles();
-				loginformation("Back up and syncnronise files");
+				loginformation("Backup and syncnronise files");
 				changepermissions("0777");
 			}
 		}

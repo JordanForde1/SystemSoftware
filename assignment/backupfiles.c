@@ -10,8 +10,8 @@
 
 void backupfiles()
 {
-	char *copy = "cp -r";
-	char *getfiles = "/home/jordan/Documents/SystemSoftware/assignment/var/www/html/intranet/";
+	char *copy = "cp -r ";
+	char *getfiles = "/home/jordan/Documents/SystemSoftware/assignment/var/www/html/intranet/ ";
 	char *putfiles = "/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/";
 	char datebuffer[80];
 	char *date = getDate(datebuffer);
@@ -28,7 +28,6 @@ void backupfiles()
 	char *copycommand = (char *)malloc(copysize);
 
 	strcpy(copycommand, copy);
-	//strcat(copycommand, " ");
 	strcat(copycommand, getfiles);
 	strcat(copycommand, putfiledate);
 

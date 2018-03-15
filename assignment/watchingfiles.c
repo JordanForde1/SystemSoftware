@@ -19,7 +19,6 @@ void watchfiles()
 	char *sizebuffer = (char *)malloc(size);
 	
 	strcpy(sizebuffer, auditsearch);
-	//strcat(sizebuffer, " ");
 	strcat(sizebuffer, date);
 	strcat(sizebuffer, filetype);
 	
