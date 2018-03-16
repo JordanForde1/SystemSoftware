@@ -30,13 +30,12 @@ int main()
 
 	//read buffer
 	char readBuffer[1024];
-
 	
 	//Opening file discriptors
 	fp = popen(watchfile, "r");
 
 	//Directory for output file
-	output = fopen("/home/jordan/Documents/SystemSoftware/assignment/commandlog/mainlog.txt", "a+");
+	output = fopen("/home/jordan/Documents/SystemSoftware/assignment/commandlog/auditlog.txt", "a+");
 
 	while(fgets(readBuffer, 1024, fp) != NULL)
 	{
@@ -94,9 +93,9 @@ int main()
 		then = *localtime(&now);
 
 		// Set the time to count down to
-		then.tm_hour = 23;
-		then.tm_min = 59;
-		then.tm_sec = 59;
+		then.tm_hour = 17;
+		then.tm_min = 25;
+		then.tm_sec = 0;
 
 
 		//veribales for queue and termination
