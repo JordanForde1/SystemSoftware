@@ -41,6 +41,6 @@ void watchfiles()
 		fprintf(output, "%s", readbuffer);
 	}
 
-	loging("Watch rule has been put in place.");
+	loging("Audit logs have been created.");
 	pclose(fp);
 }

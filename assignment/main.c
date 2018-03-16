@@ -92,9 +92,9 @@ int main()
 		time(&now);
 		then = *localtime(&now);
 
-		// Set the time to count down to
-		then.tm_hour = 17;
-		then.tm_min = 25;
+		// Set the time to count down to midnight
+		then.tm_hour = 23;
+		then.tm_min = 59;
 		then.tm_sec = 0;
 
 
@@ -154,9 +154,6 @@ int main()
 
 				//Back up files
 				backupfiles();
-
-				//Copy files to live
-				files();
 
 				//Creating logs
 				watchfiles();
