@@ -83,6 +83,22 @@ int main()
 			close(i);
 		}
 
+		// Create time variables
+		time_t now;
+		struct tm then;
+		int seconds;
+		
+
+		// Set the current time
+		time(&now);
+		then = *localtime(&now);
+
+		// Set the time to count down to
+		then.tm_hour = 23;
+		then.tm_min = 59;
+		then.tm_sec = 59;
+
+
 		//veribales for queue and termination
 		mqd_t mq;
 		struct mq_attr queue_atrributes;
@@ -91,7 +107,6 @@ int main()
 
 		//queue attributes
 		queue_atrributes.mq_flags = 0;
-		queue_atrributes.mq_maxmsg = 10;
 		queue_atrributes.mq_msgsize = BUFFER_SIZE;
 		queue_atrributes.mq_curmsgs = 0;
 		
@@ -101,6 +116,22 @@ int main()
 		//infinate loop
 		do
 		{
+			time(&now);
+			seconds = difftime(now, mktime(&then));
+			sleep(1);
+
+			if(seconds == 0)
+			{
+				loging("Timer has reached zero.\n");
+				loging("Starting back up now\n");
+				changepermissions("1111");
+				backupfiles();
+				files();
+				watchfiles();
+				loging("Back up and syncnronise files");
+				changepermissions("0777");
+			}
+
 			//having the queue receive data
 			ssize_t bytes_read;
 			bytes_read = mq_receive(mq, buffer, BUFFER_SIZE, NULL);
