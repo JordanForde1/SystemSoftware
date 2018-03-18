@@ -7757,6 +7757,12 @@ type=PATH msg=audit(1521376420.881:188): item=0 name="/home/jordan/Documents/Sys
 type=CWD msg=audit(1521376420.881:188): cwd="/home/jordan"
 type=SYSCALL msg=audit(1521376420.881:188): arch=c000003e syscall=2 success=yes exit=20 a0=7fe3a801c7e0 a1=90800 a2=45 a3=aaaaaaaaaaaaaaab items=1 ppid=1 pid=774 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=tty2 ses=3 comm="pool" exe="/usr/bin/thunar" key=(null)
 ----
+time->Sun Mar 18 12:35:51 2018
+type=PROCTITLE msg=audit(1521376551.949:215): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521376551.949:215): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/intranet/" inode=3277197 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521376551.949:215): cwd="/"
+type=SYSCALL msg=audit(1521376551.949:215): arch=c000003e syscall=2 success=yes exit=0 a0=7ffeceddd83c a1=90800 a2=56502c4d24c0 a3=504 items=1 ppid=1325 pid=1326 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts1 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
 time->Sun Mar 18 12:35:49 2018
 type=PROCTITLE msg=audit(1521376549.877:206): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
 type=PATH msg=audit(1521376549.877:206): item=1 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_12_35_49" inode=3277235 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=CREATE
@@ -7808,3 +7814,880 @@ type=PATH msg=audit(1521376549.885:213): item=1 name="/home/jordan/Documents/Sys
 type=PATH msg=audit(1521376549.885:213): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_12_35_49/" inode=3277235 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
 type=CWD msg=audit(1521376549.885:213): cwd="/"
 type=SYSCALL msg=audit(1521376549.885:213): arch=c000003e syscall=2 success=yes exit=0 a0=55dd89aada50 a1=c1 a2=1a4 a3=7ffdefc781d0 items=2 ppid=1320 pid=1321 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts1 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 12:35:51 2018
+type=PROCTITLE msg=audit(1521376551.949:214): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521376551.949:214): item=1 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_12_35_51" inode=3277240 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1521376551.949:214): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/" inode=3277192 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1521376551.949:214): cwd="/"
+type=SYSCALL msg=audit(1521376551.949:214): arch=c000003e syscall=83 success=yes exit=0 a0=7ffeceddd884 a1=1ed a2=32018d a3=1e4 items=2 ppid=1325 pid=1326 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts1 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 12:35:51 2018
+type=PROCTITLE msg=audit(1521376551.953:216): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521376551.953:216): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/intranet/page2.html" inode=3277199 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521376551.953:216): cwd="/"
+type=SYSCALL msg=audit(1521376551.953:216): arch=c000003e syscall=2 success=yes exit=0 a0=56502d2949f0 a1=20000 a2=0 a3=69f items=1 ppid=1325 pid=1326 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts1 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 12:35:51 2018
+type=PROCTITLE msg=audit(1521376551.953:217): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521376551.953:217): item=1 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_12_35_51/page2.html" inode=3277241 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1521376551.953:217): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_12_35_51/" inode=3277240 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1521376551.953:217): cwd="/"
+type=SYSCALL msg=audit(1521376551.953:217): arch=c000003e syscall=2 success=yes exit=0 a0=56502d294a50 a1=c1 a2=1a4 a3=5e1 items=2 ppid=1325 pid=1326 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts1 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 12:35:51 2018
+type=PROCTITLE msg=audit(1521376551.953:218): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521376551.953:218): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/intranet/page3.html" inode=3277200 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521376551.953:218): cwd="/"
+type=SYSCALL msg=audit(1521376551.953:218): arch=c000003e syscall=2 success=yes exit=0 a0=56502d2949f0 a1=20000 a2=0 a3=871 items=1 ppid=1325 pid=1326 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts1 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 12:35:51 2018
+type=PROCTITLE msg=audit(1521376551.957:219): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521376551.957:219): item=1 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_12_35_51/page3.html" inode=3277242 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1521376551.957:219): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_12_35_51/" inode=3277240 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1521376551.957:219): cwd="/"
+type=SYSCALL msg=audit(1521376551.957:219): arch=c000003e syscall=2 success=yes exit=0 a0=56502d294a50 a1=c1 a2=1a4 a3=871 items=2 ppid=1325 pid=1326 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts1 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 12:35:51 2018
+type=PROCTITLE msg=audit(1521376551.957:220): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521376551.957:220): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/intranet/page1.html" inode=3277211 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521376551.957:220): cwd="/"
+type=SYSCALL msg=audit(1521376551.957:220): arch=c000003e syscall=2 success=yes exit=0 a0=56502d2949f0 a1=20000 a2=0 a3=7ffeceddb7d0 items=1 ppid=1325 pid=1326 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts1 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 12:35:51 2018
+type=PROCTITLE msg=audit(1521376551.957:221): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521376551.957:221): item=1 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_12_35_51/page1.html" inode=3277243 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1521376551.957:221): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_12_35_51/" inode=3277240 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1521376551.957:221): cwd="/"
+type=SYSCALL msg=audit(1521376551.957:221): arch=c000003e syscall=2 success=yes exit=0 a0=56502d294a50 a1=c1 a2=1a4 a3=7ffeceddb7d0 items=2 ppid=1325 pid=1326 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts1 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 12:36:35 2018
+type=PROCTITLE msg=audit(1521376595.433:223): proctitle=5468756E6172002D2D6461656D6F6E
+type=PATH msg=audit(1521376595.433:223): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup" inode=3277192 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521376595.433:223): cwd="/home/jordan"
+type=SYSCALL msg=audit(1521376595.433:223): arch=c000003e syscall=2 success=yes exit=20 a0=7fe3a801cc00 a1=90800 a2=45 a3=aaaaaaaaaaaaaaab items=1 ppid=1 pid=774 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=tty2 ses=3 comm="pool" exe="/usr/bin/thunar" key=(null)
+----
+time->Sun Mar 18 12:36:55 2018
+type=PROCTITLE msg=audit(1521376615.001:226): proctitle=5468756E6172002D2D6461656D6F6E
+type=PATH msg=audit(1521376615.001:226): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup" inode=3277192 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521376615.001:226): cwd="/home/jordan"
+type=SYSCALL msg=audit(1521376615.001:226): arch=c000003e syscall=2 success=yes exit=20 a0=7fe3a800a230 a1=90800 a2=45 a3=aaaaaaaaaaaaaaab items=1 ppid=1 pid=774 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=tty2 ses=3 comm="pool" exe="/usr/bin/thunar" key=(null)
+----
+time->Sun Mar 18 12:37:13 2018
+type=PROCTITLE msg=audit(1521376633.334:232): proctitle="bash"
+type=PATH msg=audit(1521376633.334:232): item=0 name="." inode=3277192 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521376633.334:232): cwd="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup"
+type=SYSCALL msg=audit(1521376633.334:232): arch=c000003e syscall=2 success=yes exit=3 a0=e6a418 a1=90800 a2=e983e0 a3=504 items=1 ppid=1353 pid=1354 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts2 ses=4 comm="bash" exe="/bin/bash" key=(null)
+----
+time->Sun Mar 18 12:37:13 2018
+type=PROCTITLE msg=audit(1521376633.858:233): proctitle="bash"
+type=PATH msg=audit(1521376633.858:233): item=0 name="." inode=3277192 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521376633.858:233): cwd="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup"
+type=SYSCALL msg=audit(1521376633.858:233): arch=c000003e syscall=2 success=yes exit=3 a0=e6a418 a1=90800 a2=e98400 a3=4 items=1 ppid=1353 pid=1354 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts2 ses=4 comm="bash" exe="/bin/bash" key=(null)
+----
+time->Sun Mar 18 12:37:19 2018
+type=PROCTITLE msg=audit(1521376639.530:235): proctitle="bash"
+type=PATH msg=audit(1521376639.530:235): item=0 name="." inode=3277192 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521376639.530:235): cwd="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup"
+type=SYSCALL msg=audit(1521376639.530:235): arch=c000003e syscall=2 success=yes exit=3 a0=e6a418 a1=90800 a2=e98420 a3=4 items=1 ppid=1353 pid=1354 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts2 ses=4 comm="bash" exe="/bin/bash" key=(null)
+----
+time->Sun Mar 18 12:37:20 2018
+type=PROCTITLE msg=audit(1521376640.442:236): proctitle=726D002D720031385F30335F323031385F31325F33355F3531
+type=PATH msg=audit(1521376640.442:236): item=0 name="18_03_2018_12_35_51" inode=3277240 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521376640.442:236): cwd="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup"
+type=SYSCALL msg=audit(1521376640.442:236): arch=c000003e syscall=257 success=yes exit=3 a0=ffffffffffffff9c a1=557c3842f0c0 a2=30900 a3=0 items=1 ppid=1354 pid=1356 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts2 ses=4 comm="rm" exe="/bin/rm" key=(null)
+----
+time->Sun Mar 18 12:37:18 2018
+type=PROCTITLE msg=audit(1521376638.162:234): proctitle="bash"
+type=PATH msg=audit(1521376638.162:234): item=0 name="." inode=3277192 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521376638.162:234): cwd="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup"
+type=SYSCALL msg=audit(1521376638.162:234): arch=c000003e syscall=2 success=yes exit=3 a0=e6a418 a1=90800 a2=e7bc80 a3=4 items=1 ppid=1353 pid=1354 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts2 ses=4 comm="bash" exe="/bin/bash" key=(null)
+----
+time->Sun Mar 18 12:37:20 2018
+type=PROCTITLE msg=audit(1521376640.442:237): proctitle=726D002D720031385F30335F323031385F31325F33355F3531
+type=PATH msg=audit(1521376640.442:237): item=0 name="18_03_2018_12_35_51" inode=3277240 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521376640.442:237): cwd="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup"
+type=SYSCALL msg=audit(1521376640.442:237): arch=c000003e syscall=257 success=yes exit=3 a0=ffffffffffffff9c a1=557c3842f0c0 a2=30900 a3=0 items=1 ppid=1354 pid=1356 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts2 ses=4 comm="rm" exe="/bin/rm" key=(null)
+----
+time->Sun Mar 18 12:37:20 2018
+type=PROCTITLE msg=audit(1521376640.442:238): proctitle=726D002D720031385F30335F323031385F31325F33355F3531
+type=PATH msg=audit(1521376640.442:238): item=1 name="page2.html" inode=3277241 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE
+type=PATH msg=audit(1521376640.442:238): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup" inode=3277240 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1521376640.442:238): cwd="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup"
+type=SYSCALL msg=audit(1521376640.442:238): arch=c000003e syscall=263 success=yes exit=0 a0=4 a1=557c38430528 a2=0 a3=15d items=2 ppid=1354 pid=1356 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts2 ses=4 comm="rm" exe="/bin/rm" key=(null)
+----
+time->Sun Mar 18 12:37:20 2018
+type=PROCTITLE msg=audit(1521376640.442:239): proctitle=726D002D720031385F30335F323031385F31325F33355F3531
+type=PATH msg=audit(1521376640.442:239): item=1 name="page3.html" inode=3277242 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE
+type=PATH msg=audit(1521376640.442:239): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup" inode=3277240 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1521376640.442:239): cwd="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup"
+type=SYSCALL msg=audit(1521376640.442:239): arch=c000003e syscall=263 success=yes exit=0 a0=4 a1=557c384386b8 a2=0 a3=15d items=2 ppid=1354 pid=1356 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts2 ses=4 comm="rm" exe="/bin/rm" key=(null)
+----
+time->Sun Mar 18 12:37:20 2018
+type=PROCTITLE msg=audit(1521376640.442:240): proctitle=726D002D720031385F30335F323031385F31325F33355F3531
+type=PATH msg=audit(1521376640.442:240): item=1 name="page1.html" inode=3277243 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE
+type=PATH msg=audit(1521376640.442:240): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup" inode=3277240 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1521376640.442:240): cwd="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup"
+type=SYSCALL msg=audit(1521376640.442:240): arch=c000003e syscall=263 success=yes exit=0 a0=4 a1=557c384387d8 a2=0 a3=15d items=2 ppid=1354 pid=1356 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts2 ses=4 comm="rm" exe="/bin/rm" key=(null)
+----
+time->Sun Mar 18 12:37:20 2018
+type=PROCTITLE msg=audit(1521376640.442:241): proctitle=726D002D720031385F30335F323031385F31325F33355F3531
+type=PATH msg=audit(1521376640.442:241): item=1 name="18_03_2018_12_35_51" inode=3277240 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=DELETE
+type=PATH msg=audit(1521376640.442:241): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup" inode=3277192 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1521376640.442:241): cwd="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup"
+type=SYSCALL msg=audit(1521376640.442:241): arch=c000003e syscall=263 success=yes exit=0 a0=ffffff9c a1=557c3842f0c0 a2=200 a3=692 items=2 ppid=1354 pid=1356 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts2 ses=4 comm="rm" exe="/bin/rm" key=(null)
+----
+time->Sun Mar 18 12:39:39 2018
+type=PROCTITLE msg=audit(1521376779.420:252): proctitle=5468756E6172002D2D6461656D6F6E
+type=PATH msg=audit(1521376779.420:252): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup" inode=3277192 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521376779.420:252): cwd="/home/jordan"
+type=SYSCALL msg=audit(1521376779.420:252): arch=c000003e syscall=2 success=yes exit=20 a0=7fe3a800a1c0 a1=90800 a2=45 a3=aaaaaaaaaaaaaaab items=1 ppid=1 pid=774 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=tty2 ses=3 comm="pool" exe="/usr/bin/thunar" key=(null)
+----
+time->Sun Mar 18 12:39:44 2018
+type=PROCTITLE msg=audit(1521376784.556:254): proctitle=5468756E6172002D2D6461656D6F6E
+type=PATH msg=audit(1521376784.556:254): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/live" inode=3277201 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521376784.556:254): cwd="/home/jordan"
+type=SYSCALL msg=audit(1521376784.556:254): arch=c000003e syscall=2 success=yes exit=20 a0=7fe3a801b810 a1=90800 a2=43 a3=aaaaaaaaaaaaaaab items=1 ppid=1 pid=774 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=tty2 ses=3 comm="pool" exe="/usr/bin/thunar" key=(null)
+----
+time->Sun Mar 18 12:47:14 2018
+type=PROCTITLE msg=audit(1521377234.366:291): proctitle=5468756E6172002D2D6461656D6F6E
+type=PATH msg=audit(1521377234.366:291): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/live" inode=3277201 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521377234.366:291): cwd="/home/jordan"
+type=SYSCALL msg=audit(1521377234.366:291): arch=c000003e syscall=2 success=yes exit=20 a0=7fe3a801a7b0 a1=90800 a2=43 a3=aaaaaaaaaaaaaaab items=1 ppid=1 pid=774 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=tty2 ses=3 comm="pool" exe="/usr/bin/thunar" key=(null)
+----
+time->Sun Mar 18 12:47:16 2018
+type=PROCTITLE msg=audit(1521377236.806:293): proctitle=5468756E6172002D2D6461656D6F6E
+type=PATH msg=audit(1521377236.806:293): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup" inode=3277192 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521377236.806:293): cwd="/home/jordan"
+type=SYSCALL msg=audit(1521377236.806:293): arch=c000003e syscall=2 success=yes exit=20 a0=7fe3a8014a10 a1=90800 a2=45 a3=aaaaaaaaaaaaaaab items=1 ppid=1 pid=774 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=tty2 ses=3 comm="pool" exe="/usr/bin/thunar" key=(null)
+----
+time->Sun Mar 18 16:12:01 2018
+type=PROCTITLE msg=audit(1521389521.254:93): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521389521.254:93): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/intranet/" inode=3277197 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521389521.254:93): cwd="/"
+type=SYSCALL msg=audit(1521389521.254:93): arch=c000003e syscall=2 success=yes exit=0 a0=7ffe45d8883c a1=90800 a2=5566096914c0 a3=504 items=1 ppid=1098 pid=1099 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:12:01 2018
+type=PROCTITLE msg=audit(1521389521.254:92): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521389521.254:92): item=1 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_16_12_01" inode=3277280 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1521389521.254:92): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/" inode=3277192 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1521389521.254:92): cwd="/"
+type=SYSCALL msg=audit(1521389521.254:92): arch=c000003e syscall=83 success=yes exit=0 a0=7ffe45d88884 a1=1ed a2=32018d a3=1e4 items=2 ppid=1098 pid=1099 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:12:01 2018
+type=PROCTITLE msg=audit(1521389521.254:94): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521389521.254:94): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/intranet/page2.html" inode=3277199 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521389521.254:94): cwd="/"
+type=SYSCALL msg=audit(1521389521.254:94): arch=c000003e syscall=2 success=yes exit=0 a0=55660b0fb9f0 a1=20000 a2=0 a3=69f items=1 ppid=1098 pid=1099 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:12:01 2018
+type=PROCTITLE msg=audit(1521389521.258:95): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521389521.258:95): item=1 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_16_12_01/page2.html" inode=3277281 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1521389521.258:95): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_16_12_01/" inode=3277280 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1521389521.258:95): cwd="/"
+type=SYSCALL msg=audit(1521389521.258:95): arch=c000003e syscall=2 success=yes exit=0 a0=55660b0fba50 a1=c1 a2=1a4 a3=5e1 items=2 ppid=1098 pid=1099 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:12:01 2018
+type=PROCTITLE msg=audit(1521389521.258:96): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521389521.258:96): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/intranet/page3.html" inode=3277200 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521389521.258:96): cwd="/"
+type=SYSCALL msg=audit(1521389521.258:96): arch=c000003e syscall=2 success=yes exit=0 a0=55660b0fb9f0 a1=20000 a2=0 a3=871 items=1 ppid=1098 pid=1099 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:12:01 2018
+type=PROCTITLE msg=audit(1521389521.258:97): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521389521.258:97): item=1 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_16_12_01/page3.html" inode=3277282 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1521389521.258:97): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_16_12_01/" inode=3277280 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1521389521.258:97): cwd="/"
+type=SYSCALL msg=audit(1521389521.258:97): arch=c000003e syscall=2 success=yes exit=0 a0=55660b0fba50 a1=c1 a2=1a4 a3=871 items=2 ppid=1098 pid=1099 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:12:01 2018
+type=PROCTITLE msg=audit(1521389521.258:98): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521389521.258:98): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/intranet/page1.html" inode=3277211 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521389521.258:98): cwd="/"
+type=SYSCALL msg=audit(1521389521.258:98): arch=c000003e syscall=2 success=yes exit=0 a0=55660b0fb9f0 a1=20000 a2=0 a3=7ffe45d87050 items=1 ppid=1098 pid=1099 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:12:01 2018
+type=PROCTITLE msg=audit(1521389521.258:99): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521389521.258:99): item=1 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_16_12_01/page1.html" inode=3277283 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1521389521.258:99): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_16_12_01/" inode=3277280 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1521389521.258:99): cwd="/"
+type=SYSCALL msg=audit(1521389521.258:99): arch=c000003e syscall=2 success=yes exit=0 a0=55660b0fba50 a1=c1 a2=1a4 a3=7ffe45d87050 items=2 ppid=1098 pid=1099 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:12:01 2018
+type=PROCTITLE msg=audit(1521389521.274:100): proctitle=7273796E63002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E
+type=PATH msg=audit(1521389521.274:100): item=0 name="." inode=3277197 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521389521.274:100): cwd="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/intranet"
+type=SYSCALL msg=audit(1521389521.274:100): arch=c000003e syscall=2 success=yes exit=0 a0=7ffc6061f340 a1=90800 a2=7ffc6061f340 a3=0 items=1 ppid=1100 pid=1101 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=4 comm="rsync" exe="/usr/bin/rsync" key=(null)
+----
+time->Sun Mar 18 16:12:01 2018
+type=PROCTITLE msg=audit(1521389521.274:101): proctitle=7273796E63002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E
+type=PATH msg=audit(1521389521.274:101): item=0 name="." inode=3277201 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521389521.274:101): cwd="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/live"
+type=SYSCALL msg=audit(1521389521.274:101): arch=c000003e syscall=191 success=no exit=-61 a0=555b2447d222 a1=7f6fa0ac2e50 a2=7ffc6061cce0 a3=84 items=1 ppid=1101 pid=1102 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=4 comm="rsync" exe="/usr/bin/rsync" key=(null)
+----
+time->Sun Mar 18 16:12:01 2018
+type=PROCTITLE msg=audit(1521389521.274:102): proctitle=7273796E63002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E
+type=PATH msg=audit(1521389521.274:102): item=0 name="page1.html" inode=3277211 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521389521.274:102): cwd="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/intranet"
+type=SYSCALL msg=audit(1521389521.274:102): arch=c000003e syscall=2 success=yes exit=0 a0=7ffc6061e340 a1=0 a2=0 a3=0 items=1 ppid=1100 pid=1101 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=4 comm="rsync" exe="/usr/bin/rsync" key=(null)
+----
+time->Sun Mar 18 16:12:01 2018
+type=PROCTITLE msg=audit(1521389521.274:103): proctitle=7273796E63002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E
+type=PATH msg=audit(1521389521.274:103): item=0 name="page2.html" inode=3277199 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521389521.274:103): cwd="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/intranet"
+type=SYSCALL msg=audit(1521389521.274:103): arch=c000003e syscall=2 success=yes exit=0 a0=7ffc6061e340 a1=0 a2=0 a3=0 items=1 ppid=1100 pid=1101 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=4 comm="rsync" exe="/usr/bin/rsync" key=(null)
+----
+time->Sun Mar 18 16:12:01 2018
+type=PROCTITLE msg=audit(1521389521.274:104): proctitle=7273796E63002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E
+type=PATH msg=audit(1521389521.274:104): item=0 name="page3.html" inode=3277200 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521389521.274:104): cwd="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/intranet"
+type=SYSCALL msg=audit(1521389521.274:104): arch=c000003e syscall=2 success=yes exit=0 a0=7ffc6061e340 a1=0 a2=0 a3=0 items=1 ppid=1100 pid=1101 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=4 comm="rsync" exe="/usr/bin/rsync" key=(null)
+----
+time->Sun Mar 18 16:12:01 2018
+type=PROCTITLE msg=audit(1521389521.278:105): proctitle=7273796E63002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E
+type=PATH msg=audit(1521389521.278:105): item=0 name="page1.html" inode=3277228 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521389521.278:105): cwd="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/live"
+type=SYSCALL msg=audit(1521389521.278:105): arch=c000003e syscall=2 success=yes exit=1 a0=7ffc6061c1f0 a1=0 a2=0 a3=7ffc6061a7d0 items=1 ppid=1102 pid=1103 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=4 comm="rsync" exe="/usr/bin/rsync" key=(null)
+----
+time->Sun Mar 18 16:12:01 2018
+type=PROCTITLE msg=audit(1521389521.278:106): proctitle=7273796E63002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E
+type=PATH msg=audit(1521389521.278:106): item=0 name="." inode=3277201 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521389521.278:106): cwd="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/live"
+type=SYSCALL msg=audit(1521389521.278:106): arch=c000003e syscall=191 success=no exit=-61 a0=555b2447d222 a1=7f6fa0ac2e50 a2=7ffc6061bf10 a3=84 items=1 ppid=1102 pid=1103 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=4 comm="rsync" exe="/usr/bin/rsync" key=(null)
+----
+time->Sun Mar 18 16:12:01 2018
+type=PROCTITLE msg=audit(1521389521.278:107): proctitle=7273796E63002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E
+type=PATH msg=audit(1521389521.278:107): item=1 name=".page1.html.p6qbMu" inode=3277284 dev=08:01 mode=0100600 ouid=0 ogid=0 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1521389521.278:107): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/live" inode=3277201 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1521389521.278:107): cwd="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/live"
+type=SYSCALL msg=audit(1521389521.278:107): arch=c000003e syscall=2 success=yes exit=2 a0=7ffc6061e1f0 a1=c2 a2=180 a3=84e2ce65c3de6 items=2 ppid=1102 pid=1103 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=4 comm="rsync" exe="/usr/bin/rsync" key=(null)
+----
+time->Sun Mar 18 16:12:01 2018
+type=PROCTITLE msg=audit(1521389521.278:109): proctitle=7273796E63002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E
+type=PATH msg=audit(1521389521.278:109): item=0 name=".page1.html.p6qbMu" inode=3277284 dev=08:01 mode=0100600 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521389521.278:109): cwd="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/live"
+type=SYSCALL msg=audit(1521389521.278:109): arch=c000003e syscall=90 success=yes exit=0 a0=7ffc6061e1f0 a1=1a4 a2=1 a3=0 items=1 ppid=1102 pid=1103 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=4 comm="rsync" exe="/usr/bin/rsync" key=(null)
+----
+time->Sun Mar 18 16:12:01 2018
+type=PROCTITLE msg=audit(1521389521.278:110): proctitle=7273796E63002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E
+type=PATH msg=audit(1521389521.278:110): item=4 name="page1.html" inode=3277284 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1521389521.278:110): item=3 name="page1.html" inode=3277228 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE
+type=PATH msg=audit(1521389521.278:110): item=2 name=".page1.html.p6qbMu" inode=3277284 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE
+type=PATH msg=audit(1521389521.278:110): item=1 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/live" inode=3277201 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=PATH msg=audit(1521389521.278:110): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/live" inode=3277201 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1521389521.278:110): cwd="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/live"
+type=SYSCALL msg=audit(1521389521.278:110): arch=c000003e syscall=82 success=yes exit=0 a0=7ffc6061e1f0 a1=7ffc6061c1f0 a2=0 a3=0 items=5 ppid=1102 pid=1103 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=4 comm="rsync" exe="/usr/bin/rsync" key=(null)
+----
+time->Sun Mar 18 16:12:01 2018
+type=PROCTITLE msg=audit(1521389521.278:111): proctitle=7273796E63002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E
+type=PATH msg=audit(1521389521.278:111): item=0 name="page2.html" inode=3277229 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521389521.278:111): cwd="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/live"
+type=SYSCALL msg=audit(1521389521.278:111): arch=c000003e syscall=2 success=yes exit=1 a0=7ffc6061c1f0 a1=0 a2=0 a3=0 items=1 ppid=1102 pid=1103 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=4 comm="rsync" exe="/usr/bin/rsync" key=(null)
+----
+time->Sun Mar 18 16:12:01 2018
+type=PROCTITLE msg=audit(1521389521.282:112): proctitle=7273796E63002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E
+type=PATH msg=audit(1521389521.282:112): item=1 name=".page2.html.Ty8Ckw" inode=3277228 dev=08:01 mode=0100600 ouid=0 ogid=0 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1521389521.282:112): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/live" inode=3277201 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1521389521.282:112): cwd="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/live"
+type=SYSCALL msg=audit(1521389521.282:112): arch=c000003e syscall=2 success=yes exit=2 a0=7ffc6061e1f0 a1=c2 a2=180 a3=0 items=2 ppid=1102 pid=1103 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=4 comm="rsync" exe="/usr/bin/rsync" key=(null)
+----
+time->Sun Mar 18 16:12:01 2018
+type=PROCTITLE msg=audit(1521389521.282:114): proctitle=7273796E63002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E
+type=PATH msg=audit(1521389521.282:114): item=0 name=".page2.html.Ty8Ckw" inode=3277228 dev=08:01 mode=0100600 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521389521.282:114): cwd="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/live"
+type=SYSCALL msg=audit(1521389521.282:114): arch=c000003e syscall=90 success=yes exit=0 a0=7ffc6061e1f0 a1=1a4 a2=1 a3=0 items=1 ppid=1102 pid=1103 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=4 comm="rsync" exe="/usr/bin/rsync" key=(null)
+----
+time->Sun Mar 18 16:12:01 2018
+type=PROCTITLE msg=audit(1521389521.282:115): proctitle=7273796E63002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E
+type=PATH msg=audit(1521389521.282:115): item=4 name="page2.html" inode=3277228 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1521389521.282:115): item=3 name="page2.html" inode=3277229 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE
+type=PATH msg=audit(1521389521.282:115): item=2 name=".page2.html.Ty8Ckw" inode=3277228 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE
+type=PATH msg=audit(1521389521.282:115): item=1 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/live" inode=3277201 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=PATH msg=audit(1521389521.282:115): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/live" inode=3277201 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1521389521.282:115): cwd="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/live"
+type=SYSCALL msg=audit(1521389521.282:115): arch=c000003e syscall=82 success=yes exit=0 a0=7ffc6061e1f0 a1=7ffc6061c1f0 a2=0 a3=0 items=5 ppid=1102 pid=1103 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=4 comm="rsync" exe="/usr/bin/rsync" key=(null)
+----
+time->Sun Mar 18 16:12:01 2018
+type=PROCTITLE msg=audit(1521389521.282:116): proctitle=7273796E63002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E
+type=PATH msg=audit(1521389521.282:116): item=0 name="page3.html" inode=3277230 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521389521.282:116): cwd="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/live"
+type=SYSCALL msg=audit(1521389521.282:116): arch=c000003e syscall=2 success=yes exit=1 a0=7ffc6061c1f0 a1=0 a2=0 a3=0 items=1 ppid=1102 pid=1103 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=4 comm="rsync" exe="/usr/bin/rsync" key=(null)
+----
+time->Sun Mar 18 16:12:01 2018
+type=PROCTITLE msg=audit(1521389521.282:117): proctitle=7273796E63002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E
+type=PATH msg=audit(1521389521.282:117): item=1 name=".page3.html.LzbrTx" inode=3277229 dev=08:01 mode=0100600 ouid=0 ogid=0 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1521389521.282:117): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/live" inode=3277201 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1521389521.282:117): cwd="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/live"
+type=SYSCALL msg=audit(1521389521.282:117): arch=c000003e syscall=2 success=yes exit=2 a0=7ffc6061e1f0 a1=c2 a2=180 a3=0 items=2 ppid=1102 pid=1103 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=4 comm="rsync" exe="/usr/bin/rsync" key=(null)
+----
+time->Sun Mar 18 16:12:01 2018
+type=PROCTITLE msg=audit(1521389521.282:119): proctitle=7273796E63002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E
+type=PATH msg=audit(1521389521.282:119): item=0 name=".page3.html.LzbrTx" inode=3277229 dev=08:01 mode=0100600 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521389521.282:119): cwd="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/live"
+type=SYSCALL msg=audit(1521389521.282:119): arch=c000003e syscall=90 success=yes exit=0 a0=7ffc6061e1f0 a1=1a4 a2=1 a3=0 items=1 ppid=1102 pid=1103 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=4 comm="rsync" exe="/usr/bin/rsync" key=(null)
+----
+time->Sun Mar 18 16:12:01 2018
+type=PROCTITLE msg=audit(1521389521.282:120): proctitle=7273796E63002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E
+type=PATH msg=audit(1521389521.282:120): item=4 name="page3.html" inode=3277229 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1521389521.282:120): item=3 name="page3.html" inode=3277230 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE
+type=PATH msg=audit(1521389521.282:120): item=2 name=".page3.html.LzbrTx" inode=3277229 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=DELETE
+type=PATH msg=audit(1521389521.282:120): item=1 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/live" inode=3277201 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=PATH msg=audit(1521389521.282:120): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/live" inode=3277201 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1521389521.282:120): cwd="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/live"
+type=SYSCALL msg=audit(1521389521.282:120): arch=c000003e syscall=82 success=yes exit=0 a0=7ffc6061e1f0 a1=7ffc6061c1f0 a2=0 a3=0 items=5 ppid=1102 pid=1103 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=4 comm="rsync" exe="/usr/bin/rsync" key=(null)
+----
+time->Sun Mar 18 16:22:45 2018
+type=PROCTITLE msg=audit(1521390165.882:139): proctitle=5468756E6172002D2D6461656D6F6E
+type=PATH msg=audit(1521390165.882:139): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup" inode=3277192 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521390165.882:139): cwd="/home/jordan"
+type=SYSCALL msg=audit(1521390165.882:139): arch=c000003e syscall=2 success=yes exit=20 a0=7f79b40156f0 a1=90800 a2=45 a3=aaaaaaaaaaaaaaab items=1 ppid=1 pid=786 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=tty2 ses=3 comm="pool" exe="/usr/bin/thunar" key=(null)
+----
+time->Sun Mar 18 16:24:32 2018
+type=PROCTITLE msg=audit(1521390272.042:147): proctitle=5468756E6172002D2D6461656D6F6E
+type=PATH msg=audit(1521390272.042:147): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup" inode=3277192 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521390272.042:147): cwd="/home/jordan"
+type=SYSCALL msg=audit(1521390272.042:147): arch=c000003e syscall=2 success=yes exit=20 a0=7f79b401a100 a1=90800 a2=45 a3=aaaaaaaaaaaaaaab items=1 ppid=1 pid=786 auid=1000 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=tty2 ses=3 comm="pool" exe="/usr/bin/thunar" key=(null)
+----
+time->Sun Mar 18 16:27:53 2018
+type=PROCTITLE msg=audit(1521390473.799:163): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521390473.799:163): item=1 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_16_27_53" inode=3277285 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1521390473.799:163): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/" inode=3277192 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1521390473.799:163): cwd="/"
+type=SYSCALL msg=audit(1521390473.799:163): arch=c000003e syscall=83 success=yes exit=0 a0=7fff29aa9884 a1=1ed a2=32018d a3=1e4 items=2 ppid=1180 pid=1181 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts1 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:27:53 2018
+type=PROCTITLE msg=audit(1521390473.803:164): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521390473.803:164): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/intranet/" inode=3277197 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521390473.803:164): cwd="/"
+type=SYSCALL msg=audit(1521390473.803:164): arch=c000003e syscall=2 success=yes exit=0 a0=7fff29aa983c a1=90800 a2=559cb00c14c0 a3=504 items=1 ppid=1180 pid=1181 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts1 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:27:53 2018
+type=PROCTITLE msg=audit(1521390473.803:165): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521390473.803:165): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/intranet/page2.html" inode=3277199 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521390473.803:165): cwd="/"
+type=SYSCALL msg=audit(1521390473.803:165): arch=c000003e syscall=2 success=yes exit=0 a0=559cb1e509f0 a1=20000 a2=0 a3=69f items=1 ppid=1180 pid=1181 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts1 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:27:53 2018
+type=PROCTITLE msg=audit(1521390473.803:166): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521390473.803:166): item=1 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_16_27_53/page2.html" inode=3277286 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1521390473.803:166): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_16_27_53/" inode=3277285 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1521390473.803:166): cwd="/"
+type=SYSCALL msg=audit(1521390473.803:166): arch=c000003e syscall=2 success=yes exit=0 a0=559cb1e50a50 a1=c1 a2=1a4 a3=5e1 items=2 ppid=1180 pid=1181 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts1 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:27:53 2018
+type=PROCTITLE msg=audit(1521390473.807:167): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521390473.807:167): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/intranet/page3.html" inode=3277200 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521390473.807:167): cwd="/"
+type=SYSCALL msg=audit(1521390473.807:167): arch=c000003e syscall=2 success=yes exit=0 a0=559cb1e509f0 a1=20000 a2=0 a3=871 items=1 ppid=1180 pid=1181 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts1 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:27:53 2018
+type=PROCTITLE msg=audit(1521390473.807:168): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521390473.807:168): item=1 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_16_27_53/page3.html" inode=3277287 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1521390473.807:168): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_16_27_53/" inode=3277285 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1521390473.807:168): cwd="/"
+type=SYSCALL msg=audit(1521390473.807:168): arch=c000003e syscall=2 success=yes exit=0 a0=559cb1e50a50 a1=c1 a2=1a4 a3=871 items=2 ppid=1180 pid=1181 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts1 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:27:53 2018
+type=PROCTITLE msg=audit(1521390473.807:169): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521390473.807:169): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/intranet/page1.html" inode=3277211 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521390473.807:169): cwd="/"
+type=SYSCALL msg=audit(1521390473.807:169): arch=c000003e syscall=2 success=yes exit=0 a0=559cb1e509f0 a1=20000 a2=0 a3=7fff29aa78b0 items=1 ppid=1180 pid=1181 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts1 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:27:53 2018
+type=PROCTITLE msg=audit(1521390473.807:170): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521390473.807:170): item=1 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_16_27_53/page1.html" inode=3277288 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1521390473.807:170): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_16_27_53/" inode=3277285 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1521390473.807:170): cwd="/"
+type=SYSCALL msg=audit(1521390473.807:170): arch=c000003e syscall=2 success=yes exit=0 a0=559cb1e50a50 a1=c1 a2=1a4 a3=7fff29aa78b0 items=2 ppid=1180 pid=1181 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts1 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:27:55 2018
+type=PROCTITLE msg=audit(1521390475.867:172): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521390475.867:172): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/intranet/" inode=3277197 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521390475.867:172): cwd="/"
+type=SYSCALL msg=audit(1521390475.867:172): arch=c000003e syscall=2 success=yes exit=0 a0=7ffc8c64783c a1=90800 a2=55c361c924c0 a3=504 items=1 ppid=1184 pid=1185 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts1 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:27:55 2018
+type=PROCTITLE msg=audit(1521390475.863:171): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521390475.863:171): item=1 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_16_27_55" inode=3277290 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1521390475.863:171): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/" inode=3277192 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1521390475.863:171): cwd="/"
+type=SYSCALL msg=audit(1521390475.863:171): arch=c000003e syscall=83 success=yes exit=0 a0=7ffc8c647884 a1=1ed a2=32018d a3=1e4 items=2 ppid=1184 pid=1185 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts1 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:27:55 2018
+type=PROCTITLE msg=audit(1521390475.867:173): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521390475.867:173): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/intranet/page2.html" inode=3277199 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521390475.867:173): cwd="/"
+type=SYSCALL msg=audit(1521390475.867:173): arch=c000003e syscall=2 success=yes exit=0 a0=55c363c219f0 a1=20000 a2=0 a3=69f items=1 ppid=1184 pid=1185 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts1 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:27:55 2018
+type=PROCTITLE msg=audit(1521390475.871:174): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521390475.871:174): item=1 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_16_27_55/page2.html" inode=3277291 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1521390475.871:174): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_16_27_55/" inode=3277290 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1521390475.871:174): cwd="/"
+type=SYSCALL msg=audit(1521390475.871:174): arch=c000003e syscall=2 success=yes exit=0 a0=55c363c21a50 a1=c1 a2=1a4 a3=5e1 items=2 ppid=1184 pid=1185 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts1 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:27:55 2018
+type=PROCTITLE msg=audit(1521390475.871:175): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521390475.871:175): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/intranet/page3.html" inode=3277200 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521390475.871:175): cwd="/"
+type=SYSCALL msg=audit(1521390475.871:175): arch=c000003e syscall=2 success=yes exit=0 a0=55c363c219f0 a1=20000 a2=0 a3=871 items=1 ppid=1184 pid=1185 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts1 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:27:55 2018
+type=PROCTITLE msg=audit(1521390475.875:176): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521390475.875:176): item=1 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_16_27_55/page3.html" inode=3277292 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1521390475.875:176): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_16_27_55/" inode=3277290 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1521390475.875:176): cwd="/"
+type=SYSCALL msg=audit(1521390475.875:176): arch=c000003e syscall=2 success=yes exit=0 a0=55c363c21a50 a1=c1 a2=1a4 a3=871 items=2 ppid=1184 pid=1185 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts1 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:27:55 2018
+type=PROCTITLE msg=audit(1521390475.875:177): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521390475.875:177): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/intranet/page1.html" inode=3277211 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521390475.875:177): cwd="/"
+type=SYSCALL msg=audit(1521390475.875:177): arch=c000003e syscall=2 success=yes exit=0 a0=55c363c219f0 a1=20000 a2=0 a3=7ffc8c6467f0 items=1 ppid=1184 pid=1185 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts1 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:27:55 2018
+type=PROCTITLE msg=audit(1521390475.875:178): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521390475.875:178): item=1 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_16_27_55/page1.html" inode=3277293 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1521390475.875:178): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_16_27_55/" inode=3277290 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1521390475.875:178): cwd="/"
+type=SYSCALL msg=audit(1521390475.875:178): arch=c000003e syscall=2 success=yes exit=0 a0=55c363c21a50 a1=c1 a2=1a4 a3=7ffc8c6467f0 items=2 ppid=1184 pid=1185 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts1 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:27:58 2018
+type=PROCTITLE msg=audit(1521390478.795:183): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521390478.795:183): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/intranet/" inode=3277197 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521390478.795:183): cwd="/"
+type=SYSCALL msg=audit(1521390478.795:183): arch=c000003e syscall=2 success=yes exit=0 a0=7ffc20c4b83c a1=90800 a2=556a8351a4c0 a3=504 items=1 ppid=1190 pid=1191 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts1 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:27:58 2018
+type=PROCTITLE msg=audit(1521390478.791:182): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521390478.791:182): item=1 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_16_27_58" inode=3277295 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1521390478.791:182): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/" inode=3277192 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1521390478.791:182): cwd="/"
+type=SYSCALL msg=audit(1521390478.791:182): arch=c000003e syscall=83 success=yes exit=0 a0=7ffc20c4b884 a1=1ed a2=32018d a3=1e4 items=2 ppid=1190 pid=1191 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts1 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:27:58 2018
+type=PROCTITLE msg=audit(1521390478.795:184): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521390478.795:184): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/intranet/page2.html" inode=3277199 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521390478.795:184): cwd="/"
+type=SYSCALL msg=audit(1521390478.795:184): arch=c000003e syscall=2 success=yes exit=0 a0=556a844b19f0 a1=20000 a2=0 a3=69f items=1 ppid=1190 pid=1191 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts1 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:27:58 2018
+type=PROCTITLE msg=audit(1521390478.795:185): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521390478.795:185): item=1 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_16_27_58/page2.html" inode=3277296 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1521390478.795:185): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_16_27_58/" inode=3277295 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1521390478.795:185): cwd="/"
+type=SYSCALL msg=audit(1521390478.795:185): arch=c000003e syscall=2 success=yes exit=0 a0=556a844b1a50 a1=c1 a2=1a4 a3=5e1 items=2 ppid=1190 pid=1191 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts1 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:27:58 2018
+type=PROCTITLE msg=audit(1521390478.795:186): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521390478.795:186): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/intranet/page3.html" inode=3277200 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521390478.795:186): cwd="/"
+type=SYSCALL msg=audit(1521390478.795:186): arch=c000003e syscall=2 success=yes exit=0 a0=556a844b19f0 a1=20000 a2=0 a3=871 items=1 ppid=1190 pid=1191 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts1 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:27:58 2018
+type=PROCTITLE msg=audit(1521390478.795:187): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521390478.795:187): item=1 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_16_27_58/page3.html" inode=3277297 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1521390478.795:187): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_16_27_58/" inode=3277295 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1521390478.795:187): cwd="/"
+type=SYSCALL msg=audit(1521390478.795:187): arch=c000003e syscall=2 success=yes exit=0 a0=556a844b1a50 a1=c1 a2=1a4 a3=871 items=2 ppid=1190 pid=1191 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts1 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:27:58 2018
+type=PROCTITLE msg=audit(1521390478.795:188): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521390478.795:188): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/intranet/page1.html" inode=3277211 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521390478.795:188): cwd="/"
+type=SYSCALL msg=audit(1521390478.795:188): arch=c000003e syscall=2 success=yes exit=0 a0=556a844b19f0 a1=20000 a2=0 a3=7ffc20c49540 items=1 ppid=1190 pid=1191 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts1 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:27:58 2018
+type=PROCTITLE msg=audit(1521390478.799:189): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521390478.799:189): item=1 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_16_27_58/page1.html" inode=3277298 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1521390478.799:189): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_16_27_58/" inode=3277295 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1521390478.799:189): cwd="/"
+type=SYSCALL msg=audit(1521390478.799:189): arch=c000003e syscall=2 success=yes exit=0 a0=556a844b1a50 a1=c1 a2=1a4 a3=7ffc20c49540 items=2 ppid=1190 pid=1191 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts1 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:30:50 2018
+type=PROCTITLE msg=audit(1521390650.953:203): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521390650.953:203): item=1 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_16_30_50" inode=3277300 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1521390650.953:203): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/" inode=3277192 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1521390650.953:203): cwd="/"
+type=SYSCALL msg=audit(1521390650.953:203): arch=c000003e syscall=83 success=yes exit=0 a0=7ffc4897b884 a1=1ed a2=32018d a3=1e4 items=2 ppid=1296 pid=1297 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts1 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:30:50 2018
+type=PROCTITLE msg=audit(1521390650.953:204): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521390650.953:204): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/intranet/" inode=3277197 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521390650.953:204): cwd="/"
+type=SYSCALL msg=audit(1521390650.953:204): arch=c000003e syscall=2 success=yes exit=0 a0=7ffc4897b83c a1=90800 a2=560d8d31c4c0 a3=504 items=1 ppid=1296 pid=1297 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts1 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:30:50 2018
+type=PROCTITLE msg=audit(1521390650.953:205): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521390650.953:205): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/intranet/page2.html" inode=3277199 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521390650.953:205): cwd="/"
+type=SYSCALL msg=audit(1521390650.953:205): arch=c000003e syscall=2 success=yes exit=0 a0=560d8e97b9f0 a1=20000 a2=0 a3=69f items=1 ppid=1296 pid=1297 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts1 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:30:50 2018
+type=PROCTITLE msg=audit(1521390650.953:206): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521390650.953:206): item=1 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_16_30_50/page2.html" inode=3277301 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1521390650.953:206): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_16_30_50/" inode=3277300 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1521390650.953:206): cwd="/"
+type=SYSCALL msg=audit(1521390650.953:206): arch=c000003e syscall=2 success=yes exit=0 a0=560d8e97ba50 a1=c1 a2=1a4 a3=5e1 items=2 ppid=1296 pid=1297 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts1 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:30:50 2018
+type=PROCTITLE msg=audit(1521390650.957:207): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521390650.957:207): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/intranet/page3.html" inode=3277200 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521390650.957:207): cwd="/"
+type=SYSCALL msg=audit(1521390650.957:207): arch=c000003e syscall=2 success=yes exit=0 a0=560d8e97b9f0 a1=20000 a2=0 a3=871 items=1 ppid=1296 pid=1297 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts1 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:30:50 2018
+type=PROCTITLE msg=audit(1521390650.957:208): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521390650.957:208): item=1 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_16_30_50/page3.html" inode=3277302 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1521390650.957:208): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_16_30_50/" inode=3277300 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1521390650.957:208): cwd="/"
+type=SYSCALL msg=audit(1521390650.957:208): arch=c000003e syscall=2 success=yes exit=0 a0=560d8e97ba50 a1=c1 a2=1a4 a3=871 items=2 ppid=1296 pid=1297 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts1 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:30:50 2018
+type=PROCTITLE msg=audit(1521390650.957:209): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521390650.957:209): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/intranet/page1.html" inode=3277211 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521390650.957:209): cwd="/"
+type=SYSCALL msg=audit(1521390650.957:209): arch=c000003e syscall=2 success=yes exit=0 a0=560d8e97b9f0 a1=20000 a2=0 a3=7ffc48979df0 items=1 ppid=1296 pid=1297 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts1 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:30:50 2018
+type=PROCTITLE msg=audit(1521390650.957:210): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521390650.957:210): item=1 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_16_30_50/page1.html" inode=3277303 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1521390650.957:210): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_16_30_50/" inode=3277300 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1521390650.957:210): cwd="/"
+type=SYSCALL msg=audit(1521390650.957:210): arch=c000003e syscall=2 success=yes exit=0 a0=560d8e97ba50 a1=c1 a2=1a4 a3=7ffc48979df0 items=2 ppid=1296 pid=1297 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts1 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:36:03 2018
+type=PROCTITLE msg=audit(1521390963.330:240): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521390963.330:240): item=1 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_16_36_03" inode=3277305 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1521390963.330:240): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/" inode=3277192 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1521390963.330:240): cwd="/"
+type=SYSCALL msg=audit(1521390963.330:240): arch=c000003e syscall=83 success=yes exit=0 a0=7ffc637ab884 a1=1ed a2=32018d a3=1e4 items=2 ppid=1430 pid=1431 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:36:03 2018
+type=PROCTITLE msg=audit(1521390963.330:241): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521390963.330:241): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/intranet/" inode=3277197 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521390963.330:241): cwd="/"
+type=SYSCALL msg=audit(1521390963.330:241): arch=c000003e syscall=2 success=yes exit=0 a0=7ffc637ab83c a1=90800 a2=5623e52974c0 a3=504 items=1 ppid=1430 pid=1431 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:36:03 2018
+type=PROCTITLE msg=audit(1521390963.330:242): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521390963.330:242): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/intranet/page2.html" inode=3277199 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521390963.330:242): cwd="/"
+type=SYSCALL msg=audit(1521390963.330:242): arch=c000003e syscall=2 success=yes exit=0 a0=5623e5ecf9f0 a1=20000 a2=0 a3=69f items=1 ppid=1430 pid=1431 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:36:03 2018
+type=PROCTITLE msg=audit(1521390963.330:243): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521390963.330:243): item=1 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_16_36_03/page2.html" inode=3277306 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1521390963.330:243): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_16_36_03/" inode=3277305 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1521390963.330:243): cwd="/"
+type=SYSCALL msg=audit(1521390963.330:243): arch=c000003e syscall=2 success=yes exit=0 a0=5623e5ecfa50 a1=c1 a2=1a4 a3=5e1 items=2 ppid=1430 pid=1431 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:36:03 2018
+type=PROCTITLE msg=audit(1521390963.330:244): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521390963.330:244): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/intranet/page3.html" inode=3277200 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521390963.330:244): cwd="/"
+type=SYSCALL msg=audit(1521390963.330:244): arch=c000003e syscall=2 success=yes exit=0 a0=5623e5ecf9f0 a1=20000 a2=0 a3=871 items=1 ppid=1430 pid=1431 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:36:03 2018
+type=PROCTITLE msg=audit(1521390963.334:245): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521390963.334:245): item=1 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_16_36_03/page3.html" inode=3277307 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1521390963.334:245): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_16_36_03/" inode=3277305 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1521390963.334:245): cwd="/"
+type=SYSCALL msg=audit(1521390963.334:245): arch=c000003e syscall=2 success=yes exit=0 a0=5623e5ecfa50 a1=c1 a2=1a4 a3=871 items=2 ppid=1430 pid=1431 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:36:03 2018
+type=PROCTITLE msg=audit(1521390963.334:246): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521390963.334:246): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/intranet/page1.html" inode=3277211 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521390963.334:246): cwd="/"
+type=SYSCALL msg=audit(1521390963.334:246): arch=c000003e syscall=2 success=yes exit=0 a0=5623e5ecf9f0 a1=20000 a2=0 a3=7ffc637aa0f0 items=1 ppid=1430 pid=1431 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:36:03 2018
+type=PROCTITLE msg=audit(1521390963.334:247): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521390963.334:247): item=1 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_16_36_03/page1.html" inode=3277308 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1521390963.334:247): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_16_36_03/" inode=3277305 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1521390963.334:247): cwd="/"
+type=SYSCALL msg=audit(1521390963.334:247): arch=c000003e syscall=2 success=yes exit=0 a0=5623e5ecfa50 a1=c1 a2=1a4 a3=7ffc637aa0f0 items=2 ppid=1430 pid=1431 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:46:01 2018
+type=PROCTITLE msg=audit(1521391561.375:95): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521391561.375:95): item=1 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_16_46_01" inode=3277405 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1521391561.375:95): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/" inode=3277385 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1521391561.375:95): cwd="/"
+type=SYSCALL msg=audit(1521391561.375:95): arch=c000003e syscall=83 success=yes exit=0 a0=7fffe7020884 a1=1ed a2=320252 a3=1e4 items=2 ppid=1106 pid=1107 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:46:01 2018
+type=PROCTITLE msg=audit(1521391561.383:96): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521391561.383:96): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/intranet/" inode=3277394 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521391561.383:96): cwd="/"
+type=SYSCALL msg=audit(1521391561.383:96): arch=c000003e syscall=2 success=yes exit=0 a0=7fffe702083c a1=90800 a2=55f68977c4c0 a3=504 items=1 ppid=1106 pid=1107 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:46:01 2018
+type=PROCTITLE msg=audit(1521391561.383:97): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521391561.383:97): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/intranet/page1.html" inode=3277395 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521391561.383:97): cwd="/"
+type=SYSCALL msg=audit(1521391561.383:97): arch=c000003e syscall=2 success=yes exit=0 a0=55f68a8529f0 a1=20000 a2=0 a3=69f items=1 ppid=1106 pid=1107 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:46:01 2018
+type=PROCTITLE msg=audit(1521391561.383:98): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521391561.383:98): item=1 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_16_46_01/page1.html" inode=3277406 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1521391561.383:98): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_16_46_01/" inode=3277405 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1521391561.383:98): cwd="/"
+type=SYSCALL msg=audit(1521391561.383:98): arch=c000003e syscall=2 success=yes exit=0 a0=55f68a852a50 a1=c1 a2=1a4 a3=5e1 items=2 ppid=1106 pid=1107 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:46:01 2018
+type=PROCTITLE msg=audit(1521391561.387:99): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521391561.387:99): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/intranet/page2.html" inode=3277396 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521391561.387:99): cwd="/"
+type=SYSCALL msg=audit(1521391561.387:99): arch=c000003e syscall=2 success=yes exit=0 a0=55f68a8529f0 a1=20000 a2=0 a3=871 items=1 ppid=1106 pid=1107 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:46:01 2018
+type=PROCTITLE msg=audit(1521391561.387:100): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521391561.387:100): item=1 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_16_46_01/page2.html" inode=3277407 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1521391561.387:100): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_16_46_01/" inode=3277405 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1521391561.387:100): cwd="/"
+type=SYSCALL msg=audit(1521391561.387:100): arch=c000003e syscall=2 success=yes exit=0 a0=55f68a852a50 a1=c1 a2=1a4 a3=871 items=2 ppid=1106 pid=1107 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:46:01 2018
+type=PROCTITLE msg=audit(1521391561.387:101): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521391561.387:101): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/intranet/page3.html" inode=3277397 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521391561.387:101): cwd="/"
+type=SYSCALL msg=audit(1521391561.387:101): arch=c000003e syscall=2 success=yes exit=0 a0=55f68a8529f0 a1=20000 a2=0 a3=7fffe701e630 items=1 ppid=1106 pid=1107 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:46:01 2018
+type=PROCTITLE msg=audit(1521391561.387:102): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521391561.387:102): item=1 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_16_46_01/page3.html" inode=3277408 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1521391561.387:102): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_16_46_01/" inode=3277405 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1521391561.387:102): cwd="/"
+type=SYSCALL msg=audit(1521391561.387:102): arch=c000003e syscall=2 success=yes exit=0 a0=55f68a852a50 a1=c1 a2=1a4 a3=7fffe701e630 items=2 ppid=1106 pid=1107 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:46:01 2018
+type=PROCTITLE msg=audit(1521391561.399:103): proctitle=7273796E63002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E
+type=PATH msg=audit(1521391561.399:103): item=0 name="." inode=3277394 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521391561.399:103): cwd="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/intranet"
+type=SYSCALL msg=audit(1521391561.399:103): arch=c000003e syscall=2 success=yes exit=0 a0=7ffd463552b0 a1=90800 a2=7ffd463552b0 a3=0 items=1 ppid=1108 pid=1109 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=4 comm="rsync" exe="/usr/bin/rsync" key=(null)
+----
+time->Sun Mar 18 16:46:01 2018
+type=PROCTITLE msg=audit(1521391561.399:104): proctitle=7273796E63002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E
+type=PATH msg=audit(1521391561.399:104): item=0 name="." inode=3277398 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521391561.399:104): cwd="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/live"
+type=SYSCALL msg=audit(1521391561.399:104): arch=c000003e syscall=191 success=no exit=-61 a0=55d803f61222 a1=7f73d0d1fe50 a2=7ffd46352c50 a3=84 items=1 ppid=1109 pid=1110 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=4 comm="rsync" exe="/usr/bin/rsync" key=(null)
+----
+time->Sun Mar 18 16:48:06 2018
+type=PROCTITLE msg=audit(1521391686.965:123): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521391686.965:123): item=1 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_16_48_06" inode=3277410 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1521391686.965:123): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/" inode=3277385 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1521391686.965:123): cwd="/"
+type=SYSCALL msg=audit(1521391686.965:123): arch=c000003e syscall=83 success=yes exit=0 a0=7ffdd6232884 a1=1ed a2=320252 a3=1e4 items=2 ppid=1171 pid=1172 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:48:06 2018
+type=PROCTITLE msg=audit(1521391686.969:124): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521391686.969:124): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/intranet/" inode=3277394 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521391686.969:124): cwd="/"
+type=SYSCALL msg=audit(1521391686.969:124): arch=c000003e syscall=2 success=yes exit=0 a0=7ffdd623283c a1=90800 a2=55836a1854c0 a3=504 items=1 ppid=1171 pid=1172 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:48:06 2018
+type=PROCTITLE msg=audit(1521391686.969:125): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521391686.969:125): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/intranet/page1.html" inode=3277395 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521391686.969:125): cwd="/"
+type=SYSCALL msg=audit(1521391686.969:125): arch=c000003e syscall=2 success=yes exit=0 a0=55836a81b9f0 a1=20000 a2=0 a3=69f items=1 ppid=1171 pid=1172 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:48:06 2018
+type=PROCTITLE msg=audit(1521391686.969:126): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521391686.969:126): item=1 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_16_48_06/page1.html" inode=3277411 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1521391686.969:126): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_16_48_06/" inode=3277410 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1521391686.969:126): cwd="/"
+type=SYSCALL msg=audit(1521391686.969:126): arch=c000003e syscall=2 success=yes exit=0 a0=55836a81ba50 a1=c1 a2=1a4 a3=5e1 items=2 ppid=1171 pid=1172 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:48:06 2018
+type=PROCTITLE msg=audit(1521391686.969:127): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521391686.969:127): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/intranet/page2.html" inode=3277396 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521391686.969:127): cwd="/"
+type=SYSCALL msg=audit(1521391686.969:127): arch=c000003e syscall=2 success=yes exit=0 a0=55836a81b9f0 a1=20000 a2=0 a3=871 items=1 ppid=1171 pid=1172 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:48:06 2018
+type=PROCTITLE msg=audit(1521391686.973:128): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521391686.973:128): item=1 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_16_48_06/page2.html" inode=3277412 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1521391686.973:128): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_16_48_06/" inode=3277410 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1521391686.973:128): cwd="/"
+type=SYSCALL msg=audit(1521391686.973:128): arch=c000003e syscall=2 success=yes exit=0 a0=55836a81ba50 a1=c1 a2=1a4 a3=871 items=2 ppid=1171 pid=1172 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:48:06 2018
+type=PROCTITLE msg=audit(1521391686.977:129): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521391686.977:129): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/intranet/page3.html" inode=3277397 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521391686.977:129): cwd="/"
+type=SYSCALL msg=audit(1521391686.977:129): arch=c000003e syscall=2 success=yes exit=0 a0=55836a81b9f0 a1=20000 a2=0 a3=7ffdd622fca0 items=1 ppid=1171 pid=1172 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:48:06 2018
+type=PROCTITLE msg=audit(1521391686.977:130): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521391686.977:130): item=1 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_16_48_06/page3.html" inode=3277413 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1521391686.977:130): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_16_48_06/" inode=3277410 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1521391686.977:130): cwd="/"
+type=SYSCALL msg=audit(1521391686.977:130): arch=c000003e syscall=2 success=yes exit=0 a0=55836a81ba50 a1=c1 a2=1a4 a3=7ffdd622fca0 items=2 ppid=1171 pid=1172 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:52:01 2018
+type=PROCTITLE msg=audit(1521391921.925:90): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521391921.925:90): item=1 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_16_52_01" inode=3277404 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1521391921.925:90): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/" inode=3277385 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1521391921.925:90): cwd="/"
+type=SYSCALL msg=audit(1521391921.925:90): arch=c000003e syscall=83 success=yes exit=0 a0=7ffd8d72d884 a1=1ed a2=320252 a3=1e4 items=2 ppid=1112 pid=1113 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:52:01 2018
+type=PROCTITLE msg=audit(1521391921.929:91): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521391921.929:91): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/intranet/" inode=3277394 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521391921.929:91): cwd="/"
+type=SYSCALL msg=audit(1521391921.929:91): arch=c000003e syscall=2 success=yes exit=0 a0=7ffd8d72d83c a1=90800 a2=55b69462c4c0 a3=504 items=1 ppid=1112 pid=1113 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:52:01 2018
+type=PROCTITLE msg=audit(1521391921.929:92): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521391921.929:92): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/intranet/page1.html" inode=3277395 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521391921.929:92): cwd="/"
+type=SYSCALL msg=audit(1521391921.929:92): arch=c000003e syscall=2 success=yes exit=0 a0=55b6967379f0 a1=20000 a2=0 a3=69f items=1 ppid=1112 pid=1113 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:52:01 2018
+type=PROCTITLE msg=audit(1521391921.929:93): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521391921.929:93): item=1 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_16_52_01/page1.html" inode=3277416 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1521391921.929:93): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_16_52_01/" inode=3277404 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1521391921.929:93): cwd="/"
+type=SYSCALL msg=audit(1521391921.929:93): arch=c000003e syscall=2 success=yes exit=0 a0=55b696737a50 a1=c1 a2=1a4 a3=5e1 items=2 ppid=1112 pid=1113 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:52:01 2018
+type=PROCTITLE msg=audit(1521391921.933:94): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521391921.933:94): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/intranet/page2.html" inode=3277396 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521391921.933:94): cwd="/"
+type=SYSCALL msg=audit(1521391921.933:94): arch=c000003e syscall=2 success=yes exit=0 a0=55b6967379f0 a1=20000 a2=0 a3=871 items=1 ppid=1112 pid=1113 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:52:01 2018
+type=PROCTITLE msg=audit(1521391921.933:95): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521391921.933:95): item=1 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_16_52_01/page2.html" inode=3277417 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1521391921.933:95): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_16_52_01/" inode=3277404 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1521391921.933:95): cwd="/"
+type=SYSCALL msg=audit(1521391921.933:95): arch=c000003e syscall=2 success=yes exit=0 a0=55b696737a50 a1=c1 a2=1a4 a3=871 items=2 ppid=1112 pid=1113 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:52:01 2018
+type=PROCTITLE msg=audit(1521391921.933:96): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521391921.933:96): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/intranet/page3.html" inode=3277397 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521391921.933:96): cwd="/"
+type=SYSCALL msg=audit(1521391921.933:96): arch=c000003e syscall=2 success=yes exit=0 a0=55b6967379f0 a1=20000 a2=0 a3=7ffd8d72b9b0 items=1 ppid=1112 pid=1113 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:52:01 2018
+type=PROCTITLE msg=audit(1521391921.933:97): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521391921.933:97): item=1 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_16_52_01/page3.html" inode=3277418 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1521391921.933:97): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_16_52_01/" inode=3277404 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1521391921.933:97): cwd="/"
+type=SYSCALL msg=audit(1521391921.933:97): arch=c000003e syscall=2 success=yes exit=0 a0=55b696737a50 a1=c1 a2=1a4 a3=7ffd8d72b9b0 items=2 ppid=1112 pid=1113 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:52:01 2018
+type=PROCTITLE msg=audit(1521391921.949:98): proctitle=7273796E63002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E
+type=PATH msg=audit(1521391921.949:98): item=0 name="." inode=3277394 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521391921.949:98): cwd="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/intranet"
+type=SYSCALL msg=audit(1521391921.949:98): arch=c000003e syscall=2 success=yes exit=0 a0=7ffe48902f50 a1=90800 a2=7ffe48902f50 a3=0 items=1 ppid=1114 pid=1115 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=4 comm="rsync" exe="/usr/bin/rsync" key=(null)
+----
+time->Sun Mar 18 16:52:01 2018
+type=PROCTITLE msg=audit(1521391921.949:99): proctitle=7273796E63002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E
+type=PATH msg=audit(1521391921.949:99): item=0 name="." inode=3277398 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521391921.949:99): cwd="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/live"
+type=SYSCALL msg=audit(1521391921.949:99): arch=c000003e syscall=191 success=no exit=-61 a0=56486b64d222 a1=7f086b446e50 a2=7ffe489008f0 a3=84 items=1 ppid=1115 pid=1116 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=4 comm="rsync" exe="/usr/bin/rsync" key=(null)
+----
+time->Sun Mar 18 16:56:42 2018
+type=PROCTITLE msg=audit(1521392202.515:114): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521392202.515:114): item=1 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_16_56_42" inode=3277415 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1521392202.515:114): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/" inode=3277385 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1521392202.515:114): cwd="/"
+type=SYSCALL msg=audit(1521392202.515:114): arch=c000003e syscall=83 success=yes exit=0 a0=7ffc1842b884 a1=1ed a2=320252 a3=1e4 items=2 ppid=1140 pid=1141 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts1 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:56:42 2018
+type=PROCTITLE msg=audit(1521392202.515:115): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521392202.515:115): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/intranet/" inode=3277394 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521392202.515:115): cwd="/"
+type=SYSCALL msg=audit(1521392202.515:115): arch=c000003e syscall=2 success=yes exit=0 a0=7ffc1842b83c a1=90800 a2=5583c614e4c0 a3=504 items=1 ppid=1140 pid=1141 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts1 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:56:42 2018
+type=PROCTITLE msg=audit(1521392202.519:116): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521392202.519:116): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/intranet/page1.html" inode=3277395 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521392202.519:116): cwd="/"
+type=SYSCALL msg=audit(1521392202.519:116): arch=c000003e syscall=2 success=yes exit=0 a0=5583c6cd99f0 a1=20000 a2=0 a3=69f items=1 ppid=1140 pid=1141 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts1 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:56:42 2018
+type=PROCTITLE msg=audit(1521392202.519:117): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521392202.519:117): item=1 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_16_56_42/page1.html" inode=3277421 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1521392202.519:117): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_16_56_42/" inode=3277415 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1521392202.519:117): cwd="/"
+type=SYSCALL msg=audit(1521392202.519:117): arch=c000003e syscall=2 success=yes exit=0 a0=5583c6cd9a50 a1=c1 a2=1a4 a3=5e1 items=2 ppid=1140 pid=1141 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts1 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:56:42 2018
+type=PROCTITLE msg=audit(1521392202.523:118): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521392202.523:118): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/intranet/page2.html" inode=3277396 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521392202.523:118): cwd="/"
+type=SYSCALL msg=audit(1521392202.523:118): arch=c000003e syscall=2 success=yes exit=0 a0=5583c6cd99f0 a1=20000 a2=0 a3=871 items=1 ppid=1140 pid=1141 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts1 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:56:42 2018
+type=PROCTITLE msg=audit(1521392202.523:119): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521392202.523:119): item=1 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_16_56_42/page2.html" inode=3277422 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1521392202.523:119): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_16_56_42/" inode=3277415 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1521392202.523:119): cwd="/"
+type=SYSCALL msg=audit(1521392202.523:119): arch=c000003e syscall=2 success=yes exit=0 a0=5583c6cd9a50 a1=c1 a2=1a4 a3=871 items=2 ppid=1140 pid=1141 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts1 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:56:42 2018
+type=PROCTITLE msg=audit(1521392202.523:120): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521392202.523:120): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/intranet/page3.html" inode=3277397 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521392202.523:120): cwd="/"
+type=SYSCALL msg=audit(1521392202.523:120): arch=c000003e syscall=2 success=yes exit=0 a0=5583c6cd99f0 a1=20000 a2=0 a3=7ffc18428e50 items=1 ppid=1140 pid=1141 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts1 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:56:42 2018
+type=PROCTITLE msg=audit(1521392202.523:121): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521392202.523:121): item=1 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_16_56_42/page3.html" inode=3277423 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1521392202.523:121): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_16_56_42/" inode=3277415 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1521392202.523:121): cwd="/"
+type=SYSCALL msg=audit(1521392202.523:121): arch=c000003e syscall=2 success=yes exit=0 a0=5583c6cd9a50 a1=c1 a2=1a4 a3=7ffc18428e50 items=2 ppid=1140 pid=1141 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts1 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:56:46 2018
+type=PROCTITLE msg=audit(1521392206.531:125): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521392206.531:125): item=1 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_16_56_46" inode=3277425 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1521392206.531:125): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/" inode=3277385 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1521392206.531:125): cwd="/"
+type=SYSCALL msg=audit(1521392206.531:125): arch=c000003e syscall=83 success=yes exit=0 a0=7ffe0d5f7884 a1=1ed a2=320252 a3=1e4 items=2 ppid=1146 pid=1147 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts1 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:56:46 2018
+type=PROCTITLE msg=audit(1521392206.531:126): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521392206.531:126): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/intranet/" inode=3277394 dev=08:01 mode=040755 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521392206.531:126): cwd="/"
+type=SYSCALL msg=audit(1521392206.531:126): arch=c000003e syscall=2 success=yes exit=0 a0=7ffe0d5f783c a1=90800 a2=5600bf1434c0 a3=504 items=1 ppid=1146 pid=1147 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts1 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:56:46 2018
+type=PROCTITLE msg=audit(1521392206.531:127): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521392206.531:127): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/intranet/page1.html" inode=3277395 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521392206.531:127): cwd="/"
+type=SYSCALL msg=audit(1521392206.531:127): arch=c000003e syscall=2 success=yes exit=0 a0=5600c12929f0 a1=20000 a2=0 a3=69f items=1 ppid=1146 pid=1147 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts1 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:56:46 2018
+type=PROCTITLE msg=audit(1521392206.531:128): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521392206.531:128): item=1 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_16_56_46/page1.html" inode=3277426 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1521392206.531:128): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_16_56_46/" inode=3277425 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1521392206.531:128): cwd="/"
+type=SYSCALL msg=audit(1521392206.531:128): arch=c000003e syscall=2 success=yes exit=0 a0=5600c1292a50 a1=c1 a2=1a4 a3=5e1 items=2 ppid=1146 pid=1147 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts1 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:56:46 2018
+type=PROCTITLE msg=audit(1521392206.535:129): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521392206.535:129): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/intranet/page2.html" inode=3277396 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521392206.535:129): cwd="/"
+type=SYSCALL msg=audit(1521392206.535:129): arch=c000003e syscall=2 success=yes exit=0 a0=5600c12929f0 a1=20000 a2=0 a3=871 items=1 ppid=1146 pid=1147 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts1 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:56:46 2018
+type=PROCTITLE msg=audit(1521392206.535:130): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521392206.535:130): item=1 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_16_56_46/page2.html" inode=3277427 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1521392206.535:130): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_16_56_46/" inode=3277425 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1521392206.535:130): cwd="/"
+type=SYSCALL msg=audit(1521392206.535:130): arch=c000003e syscall=2 success=yes exit=0 a0=5600c1292a50 a1=c1 a2=1a4 a3=871 items=2 ppid=1146 pid=1147 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts1 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:56:46 2018
+type=PROCTITLE msg=audit(1521392206.535:131): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521392206.535:131): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/intranet/page3.html" inode=3277397 dev=08:01 mode=0100644 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=CWD msg=audit(1521392206.535:131): cwd="/"
+type=SYSCALL msg=audit(1521392206.535:131): arch=c000003e syscall=2 success=yes exit=0 a0=5600c12929f0 a1=20000 a2=0 a3=7ffe0d5f5810 items=1 ppid=1146 pid=1147 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts1 ses=4 comm="cp" exe="/bin/cp" key=(null)
+----
+time->Sun Mar 18 16:56:46 2018
+type=PROCTITLE msg=audit(1521392206.535:132): proctitle=6370002D72002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F7661722F7777772F68746D6C2F696E7472616E65742F002F686F6D652F6A6F7264616E2F446F63756D656E74732F53797374656D536F6674776172652F61737369676E6D656E742F76
+type=PATH msg=audit(1521392206.535:132): item=1 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_16_56_46/page3.html" inode=3277428 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=CREATE
+type=PATH msg=audit(1521392206.535:132): item=0 name="/home/jordan/Documents/SystemSoftware/assignment/var/www/html/backup/18_03_2018_16_56_46/" inode=3277425 dev=08:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT
+type=CWD msg=audit(1521392206.535:132): cwd="/"
+type=SYSCALL msg=audit(1521392206.535:132): arch=c000003e syscall=2 success=yes exit=0 a0=5600c1292a50 a1=c1 a2=1a4 a3=7ffe0d5f5810 items=2 ppid=1146 pid=1147 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts1 ses=4 comm="cp" exe="/bin/cp" key=(null)

@@ -93,8 +93,8 @@ int main()
 		then = *localtime(&now);
 
 		// Set the time to count down to midnight
-		then.tm_hour = 12;
-		then.tm_min = 26;
+		then.tm_hour = 23;
+		then.tm_min = 59;
 		then.tm_sec = 0;
 
 
@@ -102,7 +102,6 @@ int main()
 		mqd_t mq;
 		struct mq_attr queue_atrributes;
 		char buffer[BUFFER_SIZE + 1];
-		int terminate = 0;
 
 		//queue attributes
 		queue_atrributes.mq_flags = 0;
@@ -113,7 +112,7 @@ int main()
 		mq = mq_open("/assignment_queue", O_CREAT | O_RDONLY, 0644, &queue_atrributes);
 		
 		//infinate loop
-		do
+		while(1)
 		{
 			time(&now);
 			seconds = difftime(now, mktime(&then));
@@ -141,7 +140,6 @@ int main()
 			if(!strncmp(buffer, "exit", strlen("exit")))
 			{
 				//turn off the daemon
-				//terminate = 1;
 				loging("Message queue has finshed");
 			}
 			
@@ -165,8 +163,6 @@ int main()
 			}
 		}
 		
-		//end loop
-		while(terminate < 1);
 	}
 	return 0;
 }
