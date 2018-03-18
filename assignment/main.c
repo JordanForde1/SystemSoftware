@@ -93,8 +93,8 @@ int main()
 		then = *localtime(&now);
 
 		// Set the time to count down to midnight
-		then.tm_hour = 23;
-		then.tm_min = 59;
+		then.tm_hour = 12;
+		then.tm_min = 26;
 		then.tm_sec = 0;
 
 
@@ -140,8 +140,9 @@ int main()
 			//if its 'exit, end the daemon
 			if(!strncmp(buffer, "exit", strlen("exit")))
 			{
-				terminate = 1;
-				loging("Daemon is finished");
+				//turn off the daemon
+				//terminate = 1;
+				loging("Message queue has finshed");
 			}
 			
 			//if back up preform the back upp
