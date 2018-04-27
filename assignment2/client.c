@@ -17,17 +17,17 @@ void response(int SID){
 
 	if(strcmp(server_message, "Acess granted") == 0)
 	{
-		printf("User has been authenticated. Connected to server");
+		printf("User has been authenticated. Connected to server\n");
 	}
 
 	else if(strcmp(server_message, "START_TRANSFER") == 0)
 	{
-		printf("Starting transfer");
+		printf("\nStarting transfer\n");
 	}
 
 	else if(strcmp(server_message, "TRANSFER_COMPLETE") == 0)
 	{
-		printf("Transfer complete");	
+		printf("\nTransfer complete\n");	
 	}
 
 	else
@@ -43,18 +43,18 @@ void folderpaths (char *message, char *file_path)
 	char files[500];
 
 	printf("Please enter file you wish to send: \n");
-	scanf("%d", &files);
+	scanf("%s", &files);
 
 	strcpy(file_path, files_directory);
 	strcat(file_path, files);
 
 	if(access(file_path, 0) != 0)
 	{
-		printf("File does not exist");
+		printf("File does not exist\n");
 		exit(1);
 	}
 
-	printf("\n Please enter where you would like to send the file: \nMarketing \nSales \nPromotions \nOffers ");
+	printf("\nPlease enter where you would like to send the file: \nMarketing \nSales \nPromotions \nOffers\n");
 	scanf("%s", folder);
 
 	strcpy(message, files);
@@ -92,7 +92,7 @@ void transfer (int SID, char *file_path)
 	while((block_size = fread(file_buffer, sizeof(char), 512, file_open)) > 0)
 	{
 		
-		printf("Data sent %d = %d bytes\n", i, block_size);
+		printf("\nData sent %d = %d bytes\n", i, block_size);
 
 		if(send(SID, file_buffer, block_size, 0) < 0)
 		{
@@ -124,7 +124,7 @@ int main(int argc, char *argv[])
 
 	else
 	{
-		printf("socket created\n\n");
+		printf("Socket created\n\n");
 	}
 
 	server.sin_port = htons(8081);
@@ -149,21 +149,13 @@ int main(int argc, char *argv[])
 	response(SID);
 
 	folderpaths(file_folder, file_path);
-	
+
 	if(send(SID, file_folder, strlen(file_folder), 0) < 0)
 	{
 		printf("Sending failed\n");
 		return 1;
 	}
 
-	memset(server_message, 0, 500);
-
-	if(recv(SID, server_message, 500, 0) < 0)
-	{
-		printf("IO error\n");
-	}
-
-	response(SID);
 	transfer(SID, file_path);
 	response(SID);
 	close(SID);

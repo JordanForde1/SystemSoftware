@@ -57,31 +57,32 @@ void *clientAuth(void *cs)
 	recv(client_socket, file_des, 512, 0);
 	printf("Received message: %s\n", file_des);
 	sscanf(file_des, "%s %s", username, password);
-	printf("%s\n %s\n", username, password);
+	printf("%s\n%s\n", username, password);
 
 	if(login(username, password) == 1)
 	{
 		printf("User has been authenticated\n");
-		write(client_socket, "Acess granted", strlen("User has been authenticated") + 1);
+		write(client_socket, "Acess granted\n", strlen("User has been authenticated\n") + 1);
 
 	}
 
 	else
 	{
 		printf("Not a user on the system\n");
-		write(client_socket, "Denied Access", strlen("Not a user on the system") + 1);
-		EXIT_FAILURE;
+		write(client_socket, "Denied Access\n", strlen("Not a user on the system\n") + 1);
+		exit(1);
 	}
+	
+	bzero(file_des, 512);	
 
 	recv(client_socket, file_des, 512, 0);
 	sscanf(file_des, "%s %s", file, folder);
-	printf("%s\n", file);
-	printf("%s\n", folder);
+	printf("%s\n%s\n", file, folder);
 
 	if(strcmp(folder, "marketing") != 0 && strcmp(folder, "offers") != 0 && strcmp(folder, "sales") != 0 && strcmp(folder, "promotions") != 0 )
 	{
 		write(client_socket, "Not a valid folder option", strlen("Not a valid folder option") + 1);
-		EXIT_FAILURE;
+		exit(1);
 	}
 
 	bzero(file_des, 512);
@@ -93,13 +94,11 @@ void *clientAuth(void *cs)
 
 	FILE *output;
 	output = fopen(output_location, "w");
-	
-	write(client_socket, "START_TRANSFER", strlen("START_TRANSFER") + 1);
 
 	while((block_size = recv(client_socket, file_buffer, 512, 0)) > 0)
 	{
 	
-		printf("Data received. %d\n", block_size);
+		printf("\nData received: %d\n", block_size);
 
 		int write_sz = fwrite(file_buffer, sizeof(char), block_size, output);
 		bzero(file_des, 512);
@@ -154,12 +153,12 @@ int main(int argc, char *argv[])
 	server.sin_addr.s_addr = INADDR_ANY;
 
 	//bind
-	
 	if(bind(s,(struct sockaddr *)&server, sizeof(server)) < 0)
 	{
 		perror("Bind issue\n");
 		return 1;
 	}
+
 	else
 	{
 		printf("Bind complete\n");
