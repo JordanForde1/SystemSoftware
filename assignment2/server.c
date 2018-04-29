@@ -142,11 +142,11 @@ void *clientAuth(void *cs)
 
 		fclose(log);
 
-		int write_sz = fwrite(file_buffer, sizeof(char), block_size, output);
+		int write_file = fwrite(file_buffer, sizeof(char), block_size, output);
 		bzero(file_des, 512);
 		memset(file_buffer, 0, sizeof(file_buffer));
 
-		if(write_sz == 0 || write_sz != 512)
+		if(write_file == 0 || write_file != 512)
 		{
 			break;
 		}
