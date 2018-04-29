@@ -1,0 +1,12 @@
+Username: jordan
+File location: /home/jordan/Documents/SystemSoftware/assignment2/intranet/sales/index.html
+Time: Sun Apr 29 13:50:32 2018
+
+Username: jordan
+File location: /home/jordan/Documents/SystemSoftware/assignment2/intranet/sales/home.html
+Time: Sun Apr 29 13:57:04 2018
+
+Username: bob
+File location: /home/jordan/Documents/SystemSoftware/assignment2/intranet/offers/index.html
+Time: Sun Apr 29 13:57:12 2018
+
