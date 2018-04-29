@@ -7,30 +7,37 @@
 #include <unistd.h>
 #include <stdio.h>
 
+//Funnction to identify the user
 int login(char *username, char *password)
 {
+	//veriables to campare
 	char uname[500];
 	char pass[500];
 	int correct = 0;
 
+	//Open users file for reading to compare username and password
 	FILE *login_file;
 	login_file = fopen("users.txt", "r");
 
+	//Do if there is no error
 	while(fscanf(login_file, "%s %s", uname, pass) != EOF)
 	{
+		//Make sure both are correct
 		if(strcmp(username, uname) == 0 && strcmp(password, pass) == 0)
 		{
 			correct = 1;
 			return 1;
 		}
 	}
-
+	
+	//Returning 1 if it is correct
 	if(correct == 1)
 	{
 		fclose(login_file);
 		return 1;
 	}
 	
+	//Returning 0 if its not
 	else
 	{
 		fclose(login_file);
@@ -38,8 +45,10 @@ int login(char *username, char *password)
 	}
 }
 
+//Function for sever to reveive data and do things with it
 void *clientAuth(void *cs)
 {
+	//Veribales needed
 	char file_buffer[512];
 	char file_des[512];
 	int client_socket = *(int *) cs;
@@ -51,17 +60,21 @@ void *clientAuth(void *cs)
 	char output_location[500];
 	int block_size = 0;
 
+	//Time veriables for time stamos
 	time_t now;
 	struct tm timeinfo;
 
+	//Clear
 	bzero(file_buffer, 512);
 	bzero(file_des, 512);
 
+	//Recieve user data from the client
 	recv(client_socket, file_des, 512, 0);
 	printf("Received message: %s\n", file_des);
 	sscanf(file_des, "%s %s", username, password);
 	printf("%s\n%s\n", username, password);
 
+	//Give access to the user and proceed
 	if(login(username, password) == 1)
 	{
 		printf("User has been authenticated\n");
@@ -69,6 +82,7 @@ void *clientAuth(void *cs)
 
 	}
 
+	//Denie access to the user and stop the server
 	else
 	{
 		printf("Not a user on the system\n");
@@ -77,11 +91,13 @@ void *clientAuth(void *cs)
 	}
 	
 	bzero(file_des, 512);	
-
+	
+	//Recieveing location data from the user
 	recv(client_socket, file_des, 512, 0);
 	sscanf(file_des, "%s %s", file, folder);
 	printf("%s\n%s\n", file, folder);
 
+	//Making usre folder selected is on the system
 	if(strcmp(folder, "marketing") != 0 && strcmp(folder, "offers") != 0 && strcmp(folder, "sales") != 0 && strcmp(folder, "promotions") != 0 )
 	{
 		write(client_socket, "Not a valid folder option", strlen("Not a valid folder option") + 1);
@@ -90,11 +106,13 @@ void *clientAuth(void *cs)
 
 	bzero(file_des, 512);
 
+	//Put fill file address in
 	strcpy(output_location, server_directory);
 	strcat(output_location, folder);
 	strcat(output_location, "/");
 	strcat(output_location, file);
 
+	//Open a file for writing
 	FILE *output;
 	output = fopen(output_location, "w");
 
@@ -102,13 +120,16 @@ void *clientAuth(void *cs)
 	{
 	
 		printf("\nData received: %d\n", block_size);
-
+		
+		//Log file used to keep track of who has done what
 		FILE *log = fopen("/home/jordan/Documents/SystemSoftware/assignment2/logs.txt","a");
 
+		//Time veriables
 		char logging[100];
 		time(&now);
 		timeinfo = *localtime(&now);
 
+		//Writing to log file nessary details
 		strcpy(logging, "Username: ");
 		strcat(logging, username);
 		strcat(logging, "\nFile location: ");
@@ -116,6 +137,7 @@ void *clientAuth(void *cs)
 		strcat(logging, "\nTime: ");
 		strcat(logging, ctime(&now));
 
+		//The acctual write call
 		fprintf(log, "%s\n", logging);
 
 		fclose(log);
@@ -131,8 +153,10 @@ void *clientAuth(void *cs)
 
 	}
 
-	
+	//close
 	fclose(output);
+	
+	//Say transpher was complete and client exits
 	write(client_socket, "TRANSFER_COMPLETE", strlen("TRANSFER_COMPLETE") + 1);
 }
 
@@ -195,22 +219,27 @@ int main(int argc, char *argv[])
 
 	while(cs = accept(s, (struct sockaddr *) &client, (socklen_t*) &consize))
 	{
+
+		//Cant connect
 		if(cs < 0)
 		{
 			perror("Cant establish connection\n");
 			return 1;
 		}
 
+		//Can connect
 		else
 		{
 			printf("Connection form client accepted\n");
 
+			//Declare pthread
 			pthread_t thread;
 
 			// Allocates memory for client socket
 			int *client_socket = malloc(200);
 			*client_socket = cs;
-
+		
+			//Using pthread
 			if(pthread_create(&thread, NULL, clientAuth, (void *) client_socket) < 0)
 			{
 				perror("Failed to create thread for client");

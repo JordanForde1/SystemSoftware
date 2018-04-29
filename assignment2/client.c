@@ -6,13 +6,14 @@
 #include <arpa/inet.h>
 #include <unistd.h>
 
+//Taking response from the server to keep track of whats happening
 void response(int SID){
 
 	char server_message[500];
 
 	if(recv(SID, server_message, 500, 0) < 0)
 	{
-		printf("IO error\n");
+		printf("Cannot preform input or output functionality\n");
 	}
 
 	if(strcmp(server_message, "Acess granted") == 0)
@@ -36,24 +37,29 @@ void response(int SID){
 	}
 }
 
+//Fuction to pick file to send and where to send it to
 void folderpaths (char *message, char *file_path)
 {
 	char *files_directory = "/home/jordan/Documents/SystemSoftware/assignment2/development/";
 	char folder[500];
 	char files[500];
 
+	//Enter the file
 	printf("Please enter file you wish to send: \n");
 	scanf("%s", &files);
-
+	
+	//Adding file picked to directory
 	strcpy(file_path, files_directory);
 	strcat(file_path, files);
-
+	
+	//File is not there
 	if(access(file_path, 0) != 0)
 	{
 		printf("File does not exist\n");
 		exit(1);
 	}
 
+	//Entering in the location
 	printf("\nPlease enter where you would like to send the file: \nMarketing \nSales \nPromotions \nOffers\n");
 	scanf("%s", folder);
 
@@ -62,11 +68,15 @@ void folderpaths (char *message, char *file_path)
 	strcat(message, folder);
 }
 
+//Autentication fucntion for the user
 void authentication (char *message)
 {
+
+	//Username and password
 	char username[500];
 	char password[500];
 	
+	//Enter details
 	printf("Please login!\n");
 	printf("Enter username: ");
 	scanf("%s", username);
@@ -78,6 +88,7 @@ void authentication (char *message)
 	strcat(message, password);
 }
 
+//Transfer function to send the files
 void transfer (int SID, char *file_path)
 {
 	char file_buffer[512];
@@ -104,9 +115,11 @@ void transfer (int SID, char *file_path)
 	}
 }
 
+//Main function
 int main(int argc, char *argv[])
 {
 
+	//Veribales needed
 	int SID;
 	struct sockaddr_in server;
 	char server_message[500];
@@ -117,6 +130,7 @@ int main(int argc, char *argv[])
 
 	SID = socket(AF_INET, SOCK_STREAM, 0);
 
+	//Make sure socket is created
 	if(SID == -1)
 	{
 		printf("error creating socket\n");
@@ -127,35 +141,43 @@ int main(int argc, char *argv[])
 		printf("Socket created\n\n");
 	}
 
+	//Server veribales
 	server.sin_port = htons(8081);
 	server.sin_addr.s_addr = inet_addr("127.0.0.1");
 	server.sin_family = AF_INET;
 
+	//Make sure client connects
 	if(connect(SID, (struct sockaddr *)&server, sizeof(server)) < 0)
 	{
 		printf("Connect failed\n");
 		return 1;
 	}
 	
+	//Autenticate user
 	authentication(authentication_login);
 
+	//Send to server if greater then 0
 	if(send(SID, authentication_login, strlen(authentication_login),0) < 0)
 	{
-		printf("Files did not send");
+		printf("Did not send user details");
 		return 1;
 	}
 
+	//Reset memory
 	memset(server_message, 0, 500);
 	response(SID);
 
+	//Send where the files are going
 	folderpaths(file_folder, file_path);
 
+	//Send to server if greater then 0
 	if(send(SID, file_folder, strlen(file_folder), 0) < 0)
 	{
 		printf("Sending failed\n");
 		return 1;
 	}
 
+	//Send and response
 	transfer(SID, file_path);
 	response(SID);
 	close(SID);
