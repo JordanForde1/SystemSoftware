@@ -51,6 +51,9 @@ void *clientAuth(void *cs)
 	char output_location[500];
 	int block_size = 0;
 
+	time_t now;
+	struct tm timeinfo;
+
 	bzero(file_buffer, 512);
 	bzero(file_des, 512);
 
@@ -100,6 +103,23 @@ void *clientAuth(void *cs)
 	
 		printf("\nData received: %d\n", block_size);
 
+		FILE *log = fopen("/home/jordan/Documents/SystemSoftware/assignment2/logs.txt","a");
+
+		char logging[100];
+		time(&now);
+		timeinfo = *localtime(&now);
+
+		strcpy(logging, "Username: ");
+		strcat(logging, username);
+		strcat(logging, "\nFile location: ");
+		strcat(logging, output_location);
+		strcat(logging, "\nTime: ");
+		strcat(logging, ctime(&now));
+
+		fprintf(log, "%s\n", logging);
+
+		fclose(log);
+
 		int write_sz = fwrite(file_buffer, sizeof(char), block_size, output);
 		bzero(file_des, 512);
 		memset(file_buffer, 0, sizeof(file_buffer));
@@ -108,8 +128,10 @@ void *clientAuth(void *cs)
 		{
 			break;
 		}
+
 	}
 
+	
 	fclose(output);
 	write(client_socket, "TRANSFER_COMPLETE", strlen("TRANSFER_COMPLETE") + 1);
 }
@@ -132,7 +154,6 @@ int main(int argc, char *argv[])
 	char message[500];
 
 	char file_buffer[512];
-	char* file_name = "/home/jordan/Documents/SystemSoftware/assignment2/intranet/index.html";
 
 	//Creating socket
 	s = socket(AF_INET, SOCK_STREAM, 0);
